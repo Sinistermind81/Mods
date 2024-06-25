@@ -1,0 +1,61 @@
+<Config>
+    <append xpath="/lootcontainers">
+        <lootgroup name="Survival_Shirts" count="1" quality="1,3">
+            <item name="suitJacket"/>
+            <item name="shirt"/>
+            <item name="tshirt"/>
+            <item name="armyShirt"/>
+            <item name="tankTop"/>
+            <item name="sweatshirt"/>
+            <item name="tshirtZUWhite"/>
+            <item name="hoodedSweatshirt"/>
+            <item name="flannelShirt"/>
+            <item name="flannelShirtRed"/>
+        </lootgroup>
+        <lootgroup name="Survival_Pants" count="1" quality="1,3">
+            <item name="suitPants"/>
+            <item name="overalls"/>
+            <item name="gothicPants"/>
+            <item name="denimShortsPants"/>
+            <item name="skirt"/>
+            <item name="armyPants"/>
+            <item name="denimPants"/>
+            <item name="plantFiberPants"/>
+        </lootgroup>
+        <lootgroup name="Survival_Drink" count="2">
+            <item name="drinkJarSnowberryJuice"/>
+            <item name="drinkJarYuccaJuice"/>
+            <item name="drinkJarGoldenRodTea"/>
+            <item name="drinkJarRedTea"/>
+            <item name="drinkJarYuccaCocktail"/>
+            <item name="drinkYuccaJuiceSmoothie"/>
+        </lootgroup>
+        <lootgroup name="Survival_Food" count="2">
+            <item name="foodMoldyBread"/>
+            <item name="foodMeatStew"/>
+            <item name="foodShamChowder"/>
+            <item name="foodHoboStew"/>
+            <item name="foodFishTacos"/>
+            <item name="foodChiliDog"/>
+            <item name="foodBakedPotato"/>
+            <item name="foodBlueberryPie"/>
+            <item name="foodEggBoiled"/>
+            <item name="foodBaconAndEggs"/>
+            <item name="foodVegetableStew"/>
+        </lootgroup>
+        <lootgroup name="Survival_Medical" count="all">
+            <item name="medicalFirstAidBandage" count="5"/>
+        </lootgroup>
+        <lootgroup name="SurvivalGear" count="all">
+            <item group="Survival_Medical"/>
+            <item group="Survival_Food"/>
+            <item group="Survival_Drink"/>
+            <item group="Survival_Shirts"/>
+            <item group="Survival_Pants"/>
+            <item name="wornBoots" quality="2" count="1"/>
+        </lootgroup>
+        <lootcontainer id="175" count="1" size="8,4" destroy_on_close="true" sound_open="UseActions/open_backpack" sound_close="UseActions/close_backpack" open_time="1" loot_quality_template="baseTemplate">
+            <item group="SurvivalGear"/>
+        </lootcontainer>
+    </append>
+</Config>

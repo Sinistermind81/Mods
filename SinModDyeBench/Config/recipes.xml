@@ -1,0 +1,49 @@
+<SinModDyeBench>
+    <append xpath="/recipes">
+        <recipe name="artisanBench" count="1" craft_area="workbench" craft_time="480">
+            <ingredient name="toolBeaker" count="2"/>
+            <ingredient name="burningBarrelPlayer" count="2"/>
+            <ingredient name="toolCookingPot" count="3"/>
+            <ingredient name="resourceMetalPipe" count="50"/>
+            <ingredient name="resourceWood" count="20000"/>
+        </recipe>
+        <recipe name="modDyeWhite" count="1" craft_area="artisanBench" craft_time="60">
+            <ingredient name="resourcePaint" count="50"/>
+            <ingredient name="resourcePotassiumNitratePowder" count="50"/>
+        </recipe>
+        <recipe name="modDyeRed" count="1" craft_area="artisanBench" craft_time="60">
+            <ingredient name="resourcePaint" count="50"/>
+            <ingredient name="resourceCropChrysanthemumPlant" count="5"/>
+        </recipe>
+        <recipe name="modDyeGreen" count="1" craft_area="artisanBench" craft_time="60">
+            <ingredient name="resourcePaint" count="50"/>
+            <ingredient name="resourceCropHopsFlower" count="5"/>
+        </recipe>
+        <recipe name="modDyeBlack" count="1" craft_area="artisanBench" craft_time="60">
+            <ingredient name="resourcePaint" count="50"/>
+            <ingredient name="resourceCoal" count="5"/>
+        </recipe>
+        <recipe name="modDyeBlue" count="1" craft_area="artisanBench" craft_time="60">
+            <ingredient name="resourcePaint" count="50"/>
+            <ingredient name="foodCropBlueberries" count="5"/>
+        </recipe>
+        <recipe name="modDyeBrown" count="1" craft_area="artisanBench" craft_time="60">
+            <ingredient name="resourcePaint" count="50"/>
+            <ingredient name="resourceCropCoffeeBeans" count="5"/>
+        </recipe>
+        <recipe name="modDyePink" count="1" craft_area="artisanBench" craft_time="60">
+            <ingredient name="resourcePaint" count="50"/>
+            <ingredient name="resourcePotassiumNitratePowder" count="2"/>
+            <ingredient name="resourceCropChrysanthemumPlant" count="3"/>
+        </recipe>
+        <recipe name="modDyePurple" count="1" craft_area="artisanBench" craft_time="60">
+            <ingredient name="resourcePaint" count="50"/>
+            <ingredient name="resourceCropChrysanthemumPlant" count="3"/>
+            <ingredient name="foodCropBlueberries" count="2"/>
+        </recipe>
+        <recipe name="modDyeYellow" count="1" craft_area="artisanBench" craft_time="60">
+            <ingredient name="resourcePaint" count="50"/>
+            <ingredient name="resourceCropGoldenrodPlant" count="5"/>
+        </recipe>
+    </append>
+</SinModDyeBench>

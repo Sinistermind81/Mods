@@ -1,0 +1,29 @@
+<SinModAdmin>
+    <append xpath="/materials">
+        <!--SinMod Starts Here-->
+        <!--Admin Materials-->
+        <material id="Madmins">
+            <property name="damage_category" value="stone"/>
+            <property name="surface_category" value="stone"/>
+            <property name="Hardness" type="float" value="10000"/>
+            <property name="stepsound" value="stone"/>
+            <property name="stability_glue" value="240"/>
+            <property name="Mass" type="int" value="1"/>
+            <property name="explosionresistance" value="16"/>
+            <property name="MaxDamage" value="100000"/>
+            <property name="CanDestroy" value="false" />
+        </material>
+        <material id="MadminsWire">
+            <property name="damage_category" value="metal"/>
+            <property name="surface_category" value="metal"/>
+            <property name="Hardness" type="float" value="10000"/>
+            <property name="stepsound" value="metal"/>
+            <property name="stability_glue" value="240"/>
+            <property name="Mass" type="int" value="1"/>
+            <property name="explosionresistance" value="16"/>
+            <property name="MaxDamage" value="100000"/>
+            <property name="movement_factor" value="0.1"/>
+            <property name="CanDestroy" value="false" />
+        </material>
+    </append>
+</SinModAdmin>

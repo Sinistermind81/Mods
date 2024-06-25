@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xml>
+    <ModInfo>
+        <Name value="SinModTraps" />
+        <Description value="Adds fire trap and fuel to run it to the game." />
+        <Author value="SinisterMind81" />
+        <Version value="v1.1" />
+    </ModInfo>
+</xml>

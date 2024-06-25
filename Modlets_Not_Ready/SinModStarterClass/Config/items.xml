@@ -1,0 +1,63 @@
+<Config>
+    <append xpath="/items" >
+        <!--SinMod Class Selection-->
+        <item name="StartWorldsEnd(README)">
+            <property name="Extends" value="challengeQuestMaster" />
+            <property name="CustomIcon" value="StartWorldsEnd(README)" />
+            <property name="DescriptionKey" value="StartWorldsEnd(README)Desc"/>
+            <property name="Description" value="startWorldsEndDesc"/>
+            <property class="Action0">
+                <property name="QuestGiven" value="quest_StartWorldsEnd" /></property>
+        </item>
+        <item name="classSelector">
+            <property name="DescriptionKey" value="classSelectorDesc"/>
+            <property name="CustomIcon" value="classSelector" />
+            <property name="Meshfile" value="Items/Misc/Book" />
+            <property name="Material" value="Mpaper" />
+            <property name="HoldType" value="21" />
+            <property name="Stacknumber" value="1" />
+            <property name="FuelValue" value="20" />
+            <property name="Group" value="Special Items" />
+            <property class="Preview">
+                <property name="Zoom" value="10" />
+                <property name="Pos" value="0,-0.2" />
+                <property name="Rot" value="90,45,0" /></property>
+        </item>
+        <!--SinMod Class Mod-->
+        <item name="classHitman">
+            <property name="Extends" value="questMaster" />
+            <property name="CustomIcon" value="classHitman"/>
+            <property name="DescriptionKey" value="classHitmanDesc"/>
+            <property class="Action0">
+                <property name="QuestGiven" value="quest_classHitman" /></property>
+        </item>
+        <item name="classBruiser">
+            <property name="Extends" value="questMaster" />
+            <property name="CustomIcon" value="classBruiser"/>
+            <property name="DescriptionKey" value="classBruiserDesc"/>
+            <property class="Action0">
+                <property name="QuestGiven" value="quest_classBruiser" /></property>
+        </item>
+        <item name="classSurvivalist">
+            <property name="Extends" value="questMaster" />
+            <property name="CustomIcon" value="classSurvivalist"/>
+            <property name="DescriptionKey" value="classSurvivalistDesc"/>
+            <property class="Action0">
+                <property name="QuestGiven" value="quest_classSurvivalist" /></property>
+        </item>
+        <item name="classConartist">
+            <property name="Extends" value="questMaster" />
+            <property name="CustomIcon" value="classConartist"/>
+            <property name="DescriptionKey" value="classConartistDesc"/>
+            <property class="Action0">
+                <property name="QuestGiven" value="quest_classConartist" /></property>
+        </item>
+        <item name="classEngineer">
+            <property name="Extends" value="questMaster" />
+            <property name="CustomIcon" value="classEngineer"/>
+            <property name="DescriptionKey" value="classEngineerDesc"/>
+            <property class="Action0">
+                <property name="QuestGiven" value="quest_classEngineer" /></property>
+        </item>
+    </append>
+</Config>

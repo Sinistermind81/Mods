@@ -1,0 +1,83 @@
+<SinModSupporter>
+    <append xpath="/item_modifiers">
+        <item_modifier name="modSinUnbreakable" installable_tags="clothing,armor,weapon,tool" modifier_tags="durability" blocked_tags="noMods" type="attachment">
+            <property name="Extends" value="modGeneralMaster"/>
+            <property name="CustomIcon" value="resourceForgedSteel" />
+            <property name="CustomIconTint" value="FF0000" />
+            <effect_group tiered="false">
+                <passive_effect name="DegradationPerUse" operation="perc_add" value="-.9"/>
+            </effect_group>
+        </item_modifier>
+
+        <item_modifier name="modSinJumpBoots" installable_tags="armorFeet" modifier_tags="misc" blocked_tags="noMods" type="attachment">
+            <property name="Extends" value="modGeneralMaster"/>
+            <property name="CustomIcon" value="ammoRocketFrag"/>
+            <property name="CustomIconTint" value="FF0000" />
+            <effect_group tiered="false">
+                <triggered_effect trigger="onSelfItemActivate" action="PlaySound" target="self" sound="generator_start" play_in_head="true"/>
+                <triggered_effect trigger="onSelfItemActivate" action="FadeOutSound" target="self" sound="generator_start" play_in_head="true"/>
+                <triggered_effect trigger="onSelfItemDeactivate" action="PlaySound" target="self" sound="generator_stop" play_in_head="true"/>
+                <triggered_effect trigger="onSelfItemDeactivate" action="FadeOutSound" target="self" sound="generator_stop" play_in_head="true"/>
+            </effect_group>
+
+            <effect_group tiered="false">
+                <passive_effect name="JumpStrength" operation="perc_add" value=".9"/>
+                <triggered_effect trigger="onSelfJump" action="PlaySound" sound="m136_fire" play_in_head="true">
+                    <requirement name="IsItemActive"/>
+                </triggered_effect>
+            </effect_group>
+        </item_modifier>
+
+        <item_modifier name="modSinFastHands" installable_tags="armorHands" modifier_tags="ammo" blocked_tags="noMods" type="attachment">
+            <property name="Extends" value="modGeneralMaster"/>
+            <property name="CustomIcon" value="armorIronGloves"/>
+            <property name="CustomIconTint" value="FF0000" />
+            <effect_group tiered="false">
+                <requirement name="ItemHasTags" tags="armorHands"/>
+                <triggered_effect trigger="onSelfEquipStart" action="AddBuff" buff="buffFastHand"/>
+                <triggered_effect trigger="onSelfEquipStop" action="RemoveBuff" buff="buffFastHand"/>
+            </effect_group>
+        </item_modifier>
+
+        <item_modifier name="modSinHammerDrill" installable_tags="motorTool" modifier_tags="specialDamage" blocked_tags="noMods,noBlades" type="attachment">
+            <property name="Extends" value="modGeneralMaster"/>
+            <property name="CustomIcon" value="gunExplosivesT3RocketLauncher"/>
+            <property name="CustomIconTint" value="FF0000" />
+            <effect_group tiered="false">
+                <passive_effect name="BlockDamage" operation="perc_add" value="5"/>
+            </effect_group>
+        </item_modifier>
+
+        <item_modifier name="modSinHighSpeed" installable_tags="armorFeet" modifier_tags="movement" blocked_tags="noMods" type="attachment">
+            <property name="Extends" value="modGeneralMaster"/>
+            <property name="CustomIcon" value="resourceMechanicalParts"/>
+            <property name="CustomIconTint" value="FF0000" />
+            <effect_group tiered="false">
+                <passive_effect name="Mobility" operation="perc_add" value=".03"/>
+                <passive_effect name="StaminaChangeOT" operation="perc_add" value=".05" tags="walking"/>
+                <passive_effect name="StaminaChangeOT" operation="perc_add" value=".1" tags="running"/>
+                <display_value name="dStaminaChangeOT" value=".1"/>
+                <passive_effect name="WalkSpeed" operation="perc_add" value=".35"/>
+                <passive_effect name="RunSpeed" operation="perc_add" value=".35"/>
+            </effect_group>
+        </item_modifier>
+
+        <item_modifier name="modSinBrassCatcher" installable_tags="weapon" blocked_tags="shotgun,melee,perkArchery,turretMelee,turretRanged,noMods" modifier_tags="sideAttachment" type="attachment">
+            <property name="CustomIcon" value="resourceBulletCasing" />
+            <property name="CustomIconTint" value="FF0000" />
+            <property name="DescriptionKey" value="modGunBrassCatcherDesc"/>
+            <property name="Stacknumber" value="1"/>
+            <effect_group tiered="false">
+                <requirement name="RandomRoll" seed_type="Random" min_max="0,100" operation="LTE" value="50"/>
+                <requirement name="RoundsInMagazine" operation="GTE" value="1"/>
+                <requirement name="!HoldingItemBroken"/>
+                <triggered_effect trigger="onSelfPrimaryActionStart" action="AddBuff" target="self" buff="buffReclaimBrass"/>
+                <triggered_effect trigger="onSelfRangedBurstShotEnd" action="AddBuff" target="self" buff="buffReclaimBrass"/>
+            </effect_group>
+            <effect_group>
+                <passive_effect name="ReloadSpeedMultiplier" operation="perc_add" value="-.15"/>
+            </effect_group>
+        </item_modifier>
+
+    </append>
+</SinModSupporter>

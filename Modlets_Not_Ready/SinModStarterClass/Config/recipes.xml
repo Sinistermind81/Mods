@@ -1,0 +1,19 @@
+<Config>
+    <append xpath="/recipes">
+        <recipe name="classHitman" count="1">
+            <ingredient name="classSelector" count="1" />
+        </recipe>
+        <recipe name="classBruiser" count="1">
+            <ingredient name="classSelector" count="1" />
+        </recipe>
+        <recipe name="classSurvivalist" count="1">
+            <ingredient name="classSelector" count="1" />
+        </recipe>
+        <recipe name="classConartist" count="1">
+            <ingredient name="classSelector" count="1" />
+        </recipe>
+        <recipe name="classEngineer" count="1">
+            <ingredient name="classSelector" count="1" />
+        </recipe>
+    </append>
+</Config>

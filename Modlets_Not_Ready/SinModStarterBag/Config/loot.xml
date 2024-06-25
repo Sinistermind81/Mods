@@ -1,0 +1,34 @@
+<SinModStarterBag>
+
+    <append xpath="/lootcontainers">
+
+        <lootgroup name="Clothing" count="all">
+            <item group="groupApparelCoats" count="1"/>
+            <item group="groupApparelHats" count="1"/>
+            <item group="groupApparelFaceCover" count="1"/>
+            <item group="groupApparelShirtLong" count="1"/>
+            <item group="groupApparelTankTopTShirt" count="1"/>
+            <item group="groupApparelPants" count="1"/>
+            <item group="groupApparelBootsShoes" count="1"/>
+        </lootgroup>
+        <lootgroup name="StarterBag" count="all">
+            <item group="Clothing"/>
+            <item name="foodCanSham" count="10"/>
+            <item name="drinkJarBoiledWater" count="10"/>
+            <item name="medicalFirstAidBandage" count="5"/>
+            <item name="drugPainkillers" count="5"/>
+            <item name="gunHandgunT1Pistol" count="1"/>
+            <item name="ammo9mmBulletBall" count="100"/>
+            <item name="meleeToolTorch" count="1"/>
+            <item name="resourceRepairKit" count="1"/>
+            <item name="keystoneBlock" count="1"/>
+            <item name="challengeSinQuest" count="1"/>
+        </lootgroup>
+
+        <lootcontainer id="350" count="1" size="8,9" destroy_on_close="true" sound_open="UseActions/open_backpack" sound_close="UseActions/close_backpack" open_time="1.5" loot_quality_template="qualBaseTemplate">
+            <item group="StarterBag" />
+        </lootcontainer>
+
+    </append>
+
+</SinModStarterBag>

@@ -1,0 +1,6 @@
+<configs>
+
+	<!-- Mehr Grass, wegen Animal Bedding -->
+	<set xpath="/blocks/block[@name='treeGrassMaster']/drop[@event='Harvest']/@count">20</set>
+
+</configs>

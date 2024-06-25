@@ -1,0 +1,48 @@
+<SinModSupporter>
+    <append xpath="/lootcontainers">
+        <lootgroup name="DonorCrystal" count="1">
+            <item name="resourceBloodCrystal" count="1,2"/>
+        </lootgroup>
+        <lootgroup name="DonorAmmo" count="2">
+            <item group="twitch_reward_tier0ammo"/>
+        </lootgroup>
+        <lootgroup name="DonorMod" count="1">
+            <item group="twitch_tier1weaponmods"/>
+        </lootgroup>
+        <lootgroup name="DonorSchematic" count="1">
+            <item group="twitch_schematics1"/>
+        </lootgroup>
+        <lootgroup name="DonorBooks" count="1">
+            <item group="twitch_perkBooks"/>
+        </lootgroup>
+        <lootgroup name="DonorMeds" count="2">
+            <item group="twitch_med2"/>
+        </lootgroup>
+        <lootgroup name="DonorDrinks" count="2">
+            <item group="twitch_drink"/>
+        </lootgroup>
+        <lootgroup name="DonorFood" count="2">
+            <item group="twitch_foodT0"/>
+        </lootgroup>
+        <lootgroup name="DonorSupplies" count="10">
+            <item group="twitch_natresources1"/>
+            <item group="twitch_craftresources1"/>
+            <item group="twitch_chemresources1"/>
+        </lootgroup>
+        <lootgroup name="groupAirDropDonor" count="all">
+            <item group="DonorCrystal"/>
+            <item group="DonorAmmo"/>
+            <item group="DonorMod"/>
+            <item group="DonorSchematic"/>
+            <item group="DonorBooks"/>
+            <item group="DonorMeds"/>
+            <item group="DonorDrinks"/>
+            <item group="DonorFood"/>
+            <item group="DonorSupplies"/>
+        </lootgroup>
+
+        <lootcontainer name="airdropdonor" count="1" size="8,4" destroy_on_close="true" sound_open="SupplyDrops/open_supply_crate" sound_close="SupplyDrops/close_supply_crate" loot_quality_template="qualBaseTemplate" ignore_loot_abundance="true">
+            <item group="groupAirDropDonor"/>
+        </lootcontainer>
+    </append>
+</SinModSupporter>

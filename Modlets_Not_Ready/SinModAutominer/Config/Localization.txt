@@ -1,0 +1,17 @@
+﻿Key,Source,Context,Changes,English
+
+autoMinerOff,blocks,Workstation,KgNone,Auto Miner (Off),,,,
+autoMinerOffDesc,blocks,Workstation,KgNone,Needs Fuel,,,,
+
+autoMinerOn,blocks,Workstation,KgNone,Auto Miner (On),,,,
+autoMinerOnDesc,blocks,Workstation,KgNone,Running,,,,
+
+autoMinerCompartment,blocks,Workstation,KgNone,Auto Miner Compartment,,,,
+autoMinerCompartmentDesc,blocks,Workstation,KgNone,Storage Compartment Full,,,,
+
+ammoDieselCan,items,Item,,Diesel Fuel Can,,,,
+ammoDieselCanDesc,items,Item,,This diesel fuel can is for refueling the Autominer,,,,
+
+perkArtOfMiningCompleteLongDesc,progression,perk  book,,,"One Shot: You can't find the glory hole muckin around. Crack rock like a pro with this tip. With a mining tool you have a 20% chance to one shot any ore and learn to craft an Autominer.",,,,
+
+perkGreaseMonkeyRank4LongDesc,progression,perk Int,,,"Nothing beats the safety and warmth of a nice 4x4 truck. You can craft 4x4 truck parts, more efficient stacks of gas cans, diesel fuel cans and quality 4 car batteries. Craft 4x4 truck parts 33% cheaper.",,,,

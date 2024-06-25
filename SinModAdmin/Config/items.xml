@@ -1,0 +1,95 @@
+<SinModAdmin>
+    <append xpath="/items">
+        <item name="adminToolRepairT3Nailgun">
+        	<property name="CreativeMode" value="Dev"/>
+            <property name="Tags" value="tool,nailgun,sideAttachments,repairTool,attStrength,perkMiner69r,canHaveCosmetic,noMods,repairingSkill,weapon,ranged,gun,shortRange,barrelAttachments,sideAttachments,smallTopAttachments,magazine,firingMode,bottomAttachments,attAgility,perkGunslinger,9mmGun,admin,noMods"/>
+            <property name="DisplayType" value="adminRanged"/>
+            <property name="HoldType" value="37"/>
+            <property name="Meshfile" value="@:Other/Items/Tools/nailgunPrefab.prefab"/>
+            <property name="TintColor" value="0, 255, 0"/>
+            <property name="CustomIcon" value="meleeToolRepairT3Nailgun"/>
+            <property name="CustomIconTint" value="#047D3D"/>            
+            <property name="ItemTypeIcon" value="computer"/>
+            <property name="Material" value="MMotorToolParts"/>
+            <property name="Stacknumber" value="1"/>
+            <property name="DegradationBreaksAfter" value="true"/>
+	        <property name="Degradation" value="99999" param1="true"/>
+            <property name="SoundJammed" value="weapon_jam"/>
+            <property name="CrosshairUpAfterShot" value="false"/>
+            <property name="CrosshairOnAim" value="true"/>
+            <property name="ShowQuality" value="false"/>
+            <property name="Group" value="Special Items"/>
+            <property name="Weight" value="1"/>
+            <property name="RepairExpMultiplier" value="100"/>
+            <property class="Action0">
+                <property name="Class" value="Ranged"/>
+                <property name="Hitmask_override" value="Melee"/>
+                <property name="Delay" value=".150"/>
+                <property name="Range" value="300"/>
+                <property name="Single_magazine_usage" value="true"/>
+                <property name="Infinite_ammo" value="true"/>
+                <property name="Magazine_items" value="ammo9mmBulletBall"/>
+                <property name="Reload_time" value="4.1"/>
+                <property name="Sound_start" value=""/>
+                <property name="Sound_repeat" value=""/>
+                <property name="Sound_end" value=""/>
+                <property name="Sound_empty" value="dryfire"/>
+                <property name="Sound_reload" value=""/>
+                <property name="Particles_muzzle_fire" value="nozzleflashuzi"/>
+                <property name="Particles_muzzle_smoke" value="nozzlesmokeuzi"/>
+                <property name="triggerEffectTriggerPullDualsense" value="PistolTrigger"/>
+                <property name="triggerEffectTriggerPullXbox" value="PistolTrigger"/>
+                <property name="triggerEffectShootDualsense" value="PistolShoot"/>
+                <property name="triggerEffectShootXbox" value="PistolShoot"/>
+            </property>
+            <property class="Action1"> <!-- UseAction -->
+                <property name="Class" value="Repair"/>
+                <property name="Delay" value=".5"/> <!-- Repair actions still need the delay amount -->
+                <property name="Repair_amount" value="1000"/>
+                <property name="Upgrade_hit_offset" value="-5"/>
+                <property name="Repair_action_sound" value="nailgun_fire"/>
+                <property name="Upgrade_action_sound" value="nailgun_fire"/>
+                <property name="Allowed_upgrade_items" value="resourceAdminResource,resourceWood,resourceClayLump,resourceSnowBall,resourceScrapIron,resourceForgedIron,resourceForgedSteel,resourceConcreteMix,resourceCobblestones,ironDoorBlockVariantHelper,ironDoorDoubleBlockVariantHelper,vaultDoor01,vaultDoor01Double,ironHatchBlockVariantHelper,vaultHatch01,cellarDoorDoubleIron,cellarDoorDoubleSteel,shuttersIronBlockVariantHelper,shuttersSteelBlockVariantHelper,resourceYuccaFibers,resourceCloth,resourceScrapPolymers,resourceNail"/>
+            </property>
+            <effect_group name="adminToolRepairT3Nailgun"> <!-- meleeToolRepairT3Nailgun -->
+            	<passive_effect name="RoundsPerMinute" operation="base_set" value="450"/>
+		        <passive_effect name="BurstRoundCount" operation="base_set" value="1000"/>
+                <passive_effect name="EntityDamage" operation="base_set" value="0"/>
+		        <passive_effect name="BlockDamage" operation="base_set" value="999999999"/>
+		        <passive_effect name="MaxRange" operation="base_set" value="200"/>
+                <passive_effect name="SpreadDegreesVertical" operation="base_set" value="0"/>
+                <passive_effect name="SpreadDegreesHorizontal" operation="base_set" value="0"/>
+                <passive_effect name="SpreadMultiplierAiming" operation="base_set" value="0"/>
+                <passive_effect name="SpreadMultiplierHip" operation="base_set" value="0"/>
+                <passive_effect name="IncrementalSpreadMultiplier" operation="base_set" value="2"/>
+                <passive_effect name="WeaponHandling" operation="base_set" value=".7"/> <!-- crosshair reset speed -->
+                <passive_effect name="KickDegreesVerticalMin" operation="base_set" value="0"/>
+                <passive_effect name="KickDegreesVerticalMax" operation="base_set" value="0"/>
+                <passive_effect name="KickDegreesHorizontalMin" operation="base_set" value="0"/>
+                <passive_effect name="KickDegreesHorizontalMax" operation="base_set" value="0"/>
+                <passive_effect name="DegradationMax" operation="base_set" value="1000,2000" tier="1,6" tags="perkMiner69r"/>
+                <passive_effect name="DegradationPerUse" operation="base_set" value="1"/>
+                <passive_effect name="ModSlots" operation="base_set" value="0"/>
+                <display_value name="dBlockRepairAmount" value="1000"/>
+            </effect_group>
+        </item>
+        
+        <item name="resourceAdminResource"> <!-- scrap material -->
+            <property name="HoldType" value="45"/>
+            <property name="CustomIcon" value="resourceRepairKit"/>
+            <property name="CustomIconTint" value="#047D3D"/>
+            <property name="ItemTypeIcon" value="computer"/>
+            <property name="Meshfile" value="@:Other/Items/Misc/sackPrefab.prefab"/>
+            <property name="DropMeshfile" value="@:Other/Items/Misc/sack_droppedPrefab.prefab"/>
+            <property name="Material" value="MresourceScrapIron"/>
+            <property name="Weight" value="1"/>
+            <property name="Stacknumber" value="30000"/> <!-- STK resource -->
+            <property name="EconomicValue" value="10"/>
+            <property name="EconomicBundleSize" value="10"/>
+            <property name="Group" value="Resources"/>
+            <property name="RepairTime" value=".1"/>
+            <property name="RepairAmount" value="1"/>
+            <property name="CraftingIngredientTime" value=".2"/>
+        </item>
+    </append>
+</SinModAdmin>

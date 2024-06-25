@@ -1,0 +1,169 @@
+<SinModAdmin>
+    <append xpath="/blocks">
+        <!--SinMod Starts Here-->
+        <!--SinMod Admin Lobby Blocks-->
+        <block name="adminBlocks" shapes="All">
+            <property name="CreativeMode" value="Dev"/>
+            <property name="DescriptionKey" value="steelBlockGroupDesc"/>
+            <property name="DisplayType" value="blockHardened"/>
+            <property name="Material" value="Madmins"/>
+            <property name="Shape" value="New"/>
+            <property name="Texture" value="356"/>
+            <property name="UiBackgroundTexture" value="356"/>
+            <property name="EconomicValue" value="160"/>
+            <property name="CustomIcon" value="steelShapes"/>
+            <property class="RepairItems">
+                <property name="resourceAdminResource" value="6"/>
+            </property>
+            <drop event="Harvest" name="resourceScrapIron" count="15" tag="allHarvest"/>
+            <drop event="Destroy" count="0"/>
+            <drop event="Fall" count="0" prob="0"/>
+            <property name="UpgradeSound" value="place_block_metal"/>
+            <property name="SortOrder1" value="S040"/>
+            <property name="Group" value="Special Items"/>
+            <property name="FilterTags" value="MC_Shapes"/>
+        </block>
+        <block name="adminBarbedWire">
+            <property name="CreativeMode" value="Dev"/>
+            <property name="Class" value="Damage"/>
+            <property name="CustomIcon" value="barbedWireSheet"/>
+            <property name="Damage" value="1"/>
+            <property name="DamageType" value="BarbedWire"/>
+            <property name="Damage_received" value="6"/>
+            <property name="Material" value="MadminsWire"/>
+            <property name="Shape" value="New"/>
+            <property name="ShapeMinBB" value="0.3,0,0.3"/>
+            <property name="Mesh" value="cutout"/>
+            <property name="Model" value="billboard"/>
+            <property name="Texture" value="68"/>
+            <property name="ImposterExclude" value="true"/>
+            <property name="LightOpacity" value="0"/>
+            <property name="WaterFlow" value="permitted"/>
+            <property name="Place" value="TowardsPlacerInverted"/>
+            <property name="Collide" value="movement,melee,rocket"/> <!-- -rocket -->
+            <property name="VehicleHitScale" value="8"/>
+            <property name="EconomicValue" value="15"/>
+            <property class="RepairItems">
+                <property name="resourceAdminResource" value="15"/>
+            </property>
+            <drop event="Destroy" name="resourceScrapIron" count="1,12"/>
+            <property name="SortOrder1" value="B752"/>
+            <property name="SortOrder2" value="0000"/>
+            <property name="Group" value="Building,advBuilding"/>
+            <property name="BlockTag" value="Spike"/>
+            <property name="FilterTags" value="MC_building,SC_traps,A21_NEW"/>
+        </block>
+
+        <block name="adminGlassBulletproofMaster">
+            <property name="CreativeMode" value="Dev"/>
+            <property name="CustomIcon" value="glassBulletproofMaster"/>
+            <property name="DescriptionKey" value="bulletproofGlassGroupDesc"/>
+            <property name="Material" value="Madmins"/>
+            <property name="Shape" value="New"/>
+            <property name="Mesh" value="transparent"/>
+            <property name="Model" value="cube_glass"/>
+            <property name="Texture" value="333"/>
+            <property name="LightOpacity" value="2"/>
+            <property name="Collide" value="movement,melee,bullet,arrow,rocket"/>
+            <property name="EconomicValue" value="150"/>
+            <property class="RepairItems">
+                <property name="resourceAdminResource" value="1"/>
+            </property>
+            <drop event="Harvest" name="resourceBrokenGlass" count="21" tag="allHarvest"/>
+            <drop event="Destroy" count="0"/>
+            <property name="SortOrder1" value="M170"/>
+            <property name="SortOrder2" value="0000"/>
+            <property name="Group" value="Building,advBuilding"/>
+            <property name="FilterTags" value="MC_building,SC_windows"/>
+        </block>
+
+        <block name="adminGlassBulletproofBlock">
+            <property name="Extends" value="adminGlassBulletproofMaster"/>
+            <property name="CustomIcon" value="glassBulletproofMaster"/>
+            <property name="ImposterExchange" value="imposterBlock" param1="170"/>
+            <property name="SortOrder1" value="B351"/>
+            <property name="SortOrder2" value="0300"/>
+        </block>
+        <block name="adminGlassBulletproofPlate">
+            <property name="Extends" value="adminGlassBulletproofMaster"/>
+            <property name="CustomIcon" value="glassBulletproofPlate"/>
+            <property name="Model" value="plate_glass"/>
+            <property name="ImposterExchange" value="imposterPlate" param1="170"/>
+            <property name="Place" value="TowardsPlacerInverted"/>
+            <property name="SortOrder1" value="B351"/>
+            <property name="SortOrder2" value="0301"/>
+            <property name="Group" value="Building,advBuilding"/>
+        </block>
+
+        <block name="adminGlassOpaqueBulletproofPlate">
+            <property name="Extends" value="adminGlassBulletproofPlate"/>
+            <property name="CustomIcon" value="glassOpaqueBulletproofPlate"/>
+            <property name="Mesh" value="opaque"/>
+            <property name="Model" value="Plate"/>
+            <property name="Texture" value="334"/>
+            <property name="SortOrder1" value="B351"/>
+            <property name="SortOrder2" value="0302"/>
+        </block>
+
+        <block name="adminGlassBulletproofCTRPlate">
+            <property name="Extends" value="adminGlassBulletproofMaster"/>
+            <property name="CustomIcon" value="glassBulletproofCTRPlate"/>
+            <property name="Model" value="plate_centered"/>
+            <property name="ImposterExchange" value="imposterBlock" param1="170"/>
+            <property name="Place" value="TowardsPlacerInverted"/>
+            <property name="SortOrder1" value="B351"/>
+            <property name="SortOrder2" value="0303"/>
+            <property name="Group" value="Building,advBuilding"/>
+        </block>
+
+        <block name="adminGlassOpaqueBulletproofCTRPlate">
+            <property name="Extends" value="adminGlassBulletproofCTRPlate"/>
+            <property name="CustomIcon" value="glassOpaqueBulletproofCTRPlate"/>
+            <property name="Mesh" value="opaque"/>
+            <property name="Texture" value="334"/>
+            <property name="SortOrder1" value="B351"/>
+            <property name="SortOrder2" value="0304"/>
+        </block>
+
+        <block name="adminGlassBulletproofPlateCurved">
+            <property name="Extends" value="adminGlassBulletproofMaster"/>
+            <property name="CustomIcon" value="glassBulletproofPlateCurved"/>
+            <property name="Model" value="plate_corner_round_1m"/>
+            <property name="UseGlobalUV" value="Local"/>
+            <property name="ImposterExchange" value="imposterBlock" param1="170"/>
+            <property name="SortOrder1" value="B351"/>
+            <property name="SortOrder2" value="0305"/>
+        </block>
+
+        <block name="adminGlassBulletproofRamp">
+            <property name="Extends" value="adminGlassBulletproofMaster"/>
+            <property name="CustomIcon" value="glassBulletproofRamp"/>
+            <property name="Model" value="ramp_glass"/>
+            <property name="ImposterExchange" value="imposterRamp" param1="170"/>
+            <property name="SortOrder1" value="B351"/>
+            <property name="SortOrder2" value="0306"/>
+        </block>
+
+        <block name="adminGlassBulletproofRampSheet">
+            <property name="Extends" value="adminGlassBulletproofMaster"/>
+            <property name="CustomIcon" value="glassBulletproofRampSheet"/>
+            <property name="Model" value="ramp_glass_sheet"/>
+            <property name="SortOrder1" value="B351"/>
+            <property name="SortOrder2" value="0307"/>
+        </block>
+
+        <block name="adminGlassBulletproofBlockVariantHelper">
+            <property name="Extends" value="glassBulletproofCTRPlate"/>
+            <property name="CreativeMode" value="Player"/>
+            <property name="CustomIcon" value="glassBulletproofCTRPlate"/>
+            <property name="ItemTypeIcon" value="all_blocks"/>
+            <property name="DescriptionKey" value="blockVariantHelperGroupDesc"/>
+            <property name="Stacknumber" value="200"/>
+            <property name="SelectAlternates" value="true"/>
+            <property name="PlaceAltBlockValue" value="adminGlassBulletproofBlock,adminGlassBulletproofPlate,adminGlassOpaqueBulletproofPlate,adminGlassBulletproofCTRPlate,adminGlassOpaqueBulletproofCTRPlate,adminGlassBulletproofPlateCurved,adminGlassBulletproofRamp,adminGlassBulletproofRampSheet"/>
+            <property name="SortOrder1" value="U200"/>
+            <property name="SortOrder2" value="0000"/>
+            <property name="FilterTags" value="MC_playerBlocks,SC_playerHelpers"/>
+        </block>
+    </append>
+</SinModAdmin>

@@ -1,0 +1,21 @@
+<SinModSupporter>
+    <append xpath="/buffs">
+        <buff name="buffFastHand" hidden="true" remove_on_death="true">
+            <stack_type value="replace"/>
+            <duration value="0"/>
+
+            <effect_group>
+                <passive_effect name="ReloadSpeedMultiplier" operation="perc_add" value=".60"/>
+            </effect_group>
+        </buff>
+
+        <buff name="buffReclaimBrass" hidden="true" remove_on_death="true">
+            <stack_type value="replace"/>
+            <duration value="0.01"/>
+            <effect_group>
+                <triggered_effect trigger="onSelfBuffStart" action="CallGameEvent" event="modSinBrassCatcher"/>
+            </effect_group>        
+        </buff>
+
+    </append>
+</SinModSupporter>

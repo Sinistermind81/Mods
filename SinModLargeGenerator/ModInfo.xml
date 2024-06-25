@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xml>
+    <Name value="SinModLargeGenerator" />
+    <DisplayName value="Sinister's Large Generator" />
+    <Description value="Craft a large generator bank with higher output and larger fuel tank." />
+    <Author value="Sinistermind81" />
+    <Version value="1.0.2"  compat="v1.0"/>    
+</xml>

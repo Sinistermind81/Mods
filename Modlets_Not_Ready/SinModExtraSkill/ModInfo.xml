@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xml>
+	<Name value="IncreaseSkillPointsPerLevel" />
+	<DisplayName value="Increase Skill Points Per Level" />
+	<Description value="This modlet increases skill points per level" />
+	<Author value="SinisterMind" />
+	<Version value="1.0" />
+</xml>

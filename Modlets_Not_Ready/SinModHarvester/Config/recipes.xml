@@ -1,0 +1,9 @@
+<SinModHarvester>
+    <append xpath="/recipes">
+        <recipe name="Harvester" count="1">
+            <ingredient name="resourceForgedSteel" count="5"/>
+            <ingredient name="resourceLeather" count="2"/>
+            <ingredient name="resourceWood" count="2"/>
+        </recipe>
+    </append>
+</SinModHarvester>

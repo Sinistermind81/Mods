@@ -1,0 +1,32 @@
+<SinModSupporter>
+    <append xpath="/recipes">
+        <recipe name="sinBench" count="1" craft_time="120" craft_area="workbench">
+            <ingredient name="resourceBloodCrystal" count="1"/>
+            <ingredient name="resourceScrapIron" count="20"/>
+            <ingredient name="resourceDuctTape" count="5"/>
+            <ingredient name="resourceNail" count="100"/>
+            <ingredient name="resourceWood" count="50"/>
+        </recipe>
+        <recipe name="modSinUnbreakable" count="1" craft_time="120" craft_area="sinBench">
+            <ingredient name="resourceBloodCrystal" count="15"/>
+        </recipe>
+        <recipe name="modSinJumpBoots" count="1" craft_time="120" craft_area="sinBench">
+            <ingredient name="resourceBloodCrystal" count="20"/>
+        </recipe>
+        <recipe name="modSinFastHands" count="1" craft_time="120" craft_area="sinBench">
+            <ingredient name="resourceBloodCrystal" count="10"/>
+        </recipe>
+        <recipe name="modSinHammerDrill" count="1" craft_time="120" craft_area="sinBench">
+            <ingredient name="resourceBloodCrystal" count="15"/>
+        </recipe>
+        <recipe name="modSinHighSpeed" count="1" craft_time="120" craft_area="sinBench">
+            <ingredient name="resourceBloodCrystal" count="15"/>
+        </recipe>
+        <recipe name="modSinBrassCatcher" count="1" craft_time="120" craft_area="sinBench">
+            <ingredient name="resourceBloodCrystal" count="15"/>
+        </recipe>
+        <recipe name="meleeSinWeedWackinator" count="1" craft_time="120" craft_area="sinBench">
+            <ingredient name="resourceBloodCrystal" count="2"/>
+        </recipe>
+    </append>
+</SinModSupporter>

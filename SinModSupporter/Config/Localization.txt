@@ -1,0 +1,23 @@
+Key,File,Type,UsedInMainMenu,NoTranslate,english
+sc_Donor,items,Item,,,Donor Supply Crate.
+
+sinBench,blocks,Block,,,Blood Crystal Processing
+sinBenchDesc,blocks,Block,,,Use blood crystals to make unique items only found at the Worlds End. Blood crystals can be obtained by voting for server!
+
+resourceBloodCrystal,items,Items,,,Blood Crystal
+resourceBloodCrystalDesc,items,Items,,,These crystals are used to craft upgraded mods for tools/weapons/armor/vehicles
+meleeSinWeedWackinator,items,Melee,,,Weed Wackinator,,,,,
+meleeSinWeedWackinatorDesc,items,Melee,,,Perfect tool for cutting grass and harvesting crops quick fast and in a hurry.
+
+modSinUnbreakable,items,Item,,,Unbreakable Reinforcement
+modSinUnbreakableDesc,items,Item,,,Tired of gear breaking? Then place this in a mod slot and keep it forever!
+modSinJumpBoots,items,Item,,,Moon Boot Attachment
+modSinJumpBootsDesc,items,Item,,,Jump higher and further with these amazing moon boot mods!
+modSinFastHands,items,Item,,,Fast Hands Attachment
+modSinFastHandsDesc,items,Item,,,Reload quick fast and in a hurry!!!
+modSinHammerDrill,items,Item,,,Hammer Drill Attachment
+modSinHammerDrillDesc,items,Item,,,Attachment for auger to mine terrain faster and stronger with more force than humanly possible!!!
+modSinHighSpeed,items,Item,,,High Speed Attachment
+modSinHighSpeedDesc,items,Item,,,Servo Motors that will increase your walking and running speed.
+modSinBrassCatcher,items,Item,,,Brass Catcher Attachment
+modSinBrassCatcherDesc,items,Item,,,"Will return 50% of bullet casings when installed in 9mm, 7.62mm, & .44 caliber weapons, but makes them a little slower to reload."

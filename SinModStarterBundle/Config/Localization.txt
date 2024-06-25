@@ -1,0 +1,13 @@
+Key,File,Type,UsedInMainMenu,NoTranslate,english
+starterBundle,items,Item,,,White River Supplies.
+starterBundleDesc,items,Item,,,White River has accepted you into their circle good job! They have provided you with some basics to help get you settled in but I am sure they come at a cost...,
+
+q_goBagLocate,items,Go-Bag Location,,,Secret Location of Supplies,
+q_goBagLocateDesc,items,Go-Bag Location,,,White River has accepted you into their clan. Here is a map leading to a secret stash of supplies to help you deal with the Worlds End. ,
+
+quest_goBag_description,Quest,Quest Info,,,Head to [DECEA3]{poi.name}[-] and retrieve your White River Supplies. Be careful we don't know what's in there.,
+quest_goBag_name,Quest,Quest Info,,,Secret Location of White River Supplies
+quest_goBag_offer,Quest,Quest Info,,,The end of the world can be a difficult place to survive but the White River Clan has deemed you worthy of living. Head to the secret stash and gather the supplies they have left for you. Becareful because you never know what awaits you in the dark.,
+quest_goBag_subtitle,Quest,Quest Info,,,Retrieve your White River Supplies,
+
+

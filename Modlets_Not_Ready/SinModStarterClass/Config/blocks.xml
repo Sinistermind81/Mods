@@ -1,0 +1,32 @@
+<Config>
+    <append xpath="/blocks">
+        <block name="Class Case (Locked)">
+            <property name="CreativeMode" value="Dev"/>
+            <property name="CustomIcon" value="ClassCase (Locked)" />
+            <property name="DescriptionKey" value="lockedClassCaseDesc"/>
+            <property name="Material" value="Mcloth"/>
+            <property name="Shape" value="ModelEntity"/>
+            <property name="Model" value="#Entities/LootContainers?super_chestPrefab.prefab" />
+            <property name="Displayinfo" value="Name" />
+            <property name="Path" value="solid"/>
+            <property name="Place" value="TowardsPlacerInverted"/>
+            <drop event="Destroy" count="0"/>
+            <property name="IsTerrainDecoration" value="true" />
+        </block>
+        <block name="Class Case">
+            <property name="CreativeMode" value="None"/>
+            <property name="DisplayType" value="blockHardenedMulti" />
+            <property name="Material" value="Mwood_regular"/>
+            <property name="Shape" value="ModelEntity"/>
+            <property name="Model" value="#Entities/LootContainers?super_chestPrefab.prefab" />
+            <property name="DisplayType" value="blockMulti" />
+            <property name="MultiBlockDim" value="2,1,1"/>
+            <property name="AllowAllRotations" value="true"/>
+            <property name="ImposterExchange" value="imposterBlock" param1="115"/>
+            <property name="Path" value="solid"/>
+            <property name="Class" value="Loot"/>
+            <property name="LootList" value="175"/>
+            <drop event="Destroy" count="0"/>
+        </block>
+    </append>
+</Config>

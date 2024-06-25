@@ -1,0 +1,38 @@
+<SinModAutominer>
+    <append xpath="/lootcontainers">
+    <!-- Auto miner -->
+	<lootgroup name="autoMinerA" count="all" >
+		<item name="resourceScrapIron" count="2400,4000" />
+		<item name="resourceScrapLead" count="2400,4000" />
+		<item name="resourceClayLump" count="1200,2400" />
+		<item name="resourcePotassiumNitratePowder" count="2400,4000" />
+		<item name="resourceCoal" count="2400,4000" />
+		<item name="resourceOilShale" count="2400,4000" />
+		<item name="resourceCrushedSand" count="1200,2400" />
+		<item name="resourceRockSmall" count="2400,4000" />
+	</lootgroup>
+	<lootgroup name="autoMinerRich" count="1,3">
+		<item name="resourceRawDiamond" count="0,1" prob="0.2"/>
+		<item name="resourceGoldNugget" count="0,1" prob="0.4"/>
+		<item name="resourceSilverNugget" count="0,1" prob="0.6"/>
+	</lootgroup>
+	<lootgroup name="autoMinerB" count="all" >
+		<item name="resourceScrapIron" count="2400,4000" />
+		<item name="resourceScrapLead" count="2400,4000" />
+		<item name="resourceClayLump" count="1200,2400" />
+		<item name="resourcePotassiumNitratePowder" count="2400,4000" />
+		<item name="resourceCoal" count="2400,4000" />
+		<item name="resourceOilShale" count="2400,4000" />
+		<item name="resourceCrushedSand" count="1200,2400" />
+		<item name="resourceRockSmall" count="2400,4000" />
+		<item group="autoMinerRich" count="1,3"/>
+	</lootgroup>
+	<lootgroup name="autoMiner">
+		<item group="autoMinerA" prob="10"/>
+		<item group="autoMinerB" prob="1"/>
+	</lootgroup>
+	<lootcontainer id="250" count="1" size="5,5" destroy_on_close="true" sound_open="UseActions/open_chest" sound_close="UseActions/close_chest">
+		<item group="autoMiner" prob="1" />
+	</lootcontainer>
+    </append>
+</SinModAutominer>

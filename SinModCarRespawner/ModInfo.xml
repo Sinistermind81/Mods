@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xml>
+    <Name value="SinModCarRespawner" />
+    <DisplayName value="Sinister's Car Respawner" />
+    <Description value="Respawns cars on the map every 3 days once broke down completely" />
+    <Author value="Sinistermind81" />
+    <Version value="3.1.2"  compat="v1.0"/>
+</xml>

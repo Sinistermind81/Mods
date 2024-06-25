@@ -1,0 +1,6 @@
+<configs>
+
+	<!-- Weniger XP pro Item, sonst levelt man zu schnell mit dem SpeedHarvester -->
+	<set xpath="/materials/material[@id='MresourceYuccaFibers']/property[@name='Experience']/@value">0.1</set>
+
+</configs>

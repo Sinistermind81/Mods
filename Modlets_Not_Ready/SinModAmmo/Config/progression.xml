@@ -1,0 +1,15 @@
+<Config>
+    <append xpath="/progression/perks">
+        <perk name="perkAmmoDismantling" parent="skillCraftsmanship" max_level="1" name_key="Ammo Dismantling" desc_key="Unlocks the ability to dismantle ammo at workbench." icon="ui_game_symbol_scrap">
+            <level_requirements level="1">
+                <requirement name="ProgressionLevel" progression_name="attIntellect" operation="GTE" value="6" desc_key="reqIntellectLevel06"/>
+            </level_requirements>
+            <effect_group>
+                <passive_effect name="RecipeTagUnlocked" operation="base_set" value="1" level="1" tags="dismantle9mmBullets,dismantle9mmSteelBullets,dismantle44MagBullets,dismantle44MagSteelBullets,dismantle762mmFMJBullets,dismantle762mmFMJSteelBullets,dismantleShotgunShells,dismantleShotgunSlugs"/>
+            </effect_group>
+            <effect_group>
+                <effect_description level="1" desc_base="Disassemble all ammo at workbench"/>
+            </effect_group>
+        </perk>
+    </append>
+</Config>

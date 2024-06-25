@@ -1,0 +1,24 @@
+<configs>
+
+    <append xpath="/items">
+
+		<item name="Harvester">
+			<property name="Extends" value="meleeToolRepairT0StoneAxe"/>
+			<property name="Tags" value="axe,melee,light,tool,longShaft,attStrength,perkMiner69r,perkMotherLode,perkTheHuntsman,canHaveCosmetic"/>
+			<property name="CustomIcon" value="meleeToolRepairT0StoneAxe"/> <property name="CustomIconTint" value="ffb0b0"/>
+			<effect_group name="meleeToolRepairT0StoneAxe">
+				<passive_effect name="EntityDamage" operation="base_set" value="1" tags="perkMiner69r"/>
+				<passive_effect name="BlockDamage" operation="base_set" value="1" tags="perkMiner69r"/>
+				<passive_effect name="AttacksPerMinute" operation="base_set" value="800" tags="perkMiner69r,axe"/>
+				<passive_effect name="StaminaLoss" operation="base_set" value="0.01" tags="primary"/>
+				<passive_effect name="DegradationMax" operation="base_set" value="9999,9999" tier="1,6" tags="perkMiner69r"/>
+				<passive_effect name="DegradationPerUse" operation="base_set" value="0.01" tags="perkMiner69r"/>
+				<passive_effect name="MaxRange" operation="base_set" value="20" tags="perkMiner69r"/>
+				<passive_effect name="BlockRange" operation="base_set" value="20" tags="perkMiner69r"/>
+			</effect_group>
+
+		</item>
+
+    </append>
+
+</configs>

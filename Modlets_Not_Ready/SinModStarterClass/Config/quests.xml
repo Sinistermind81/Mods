@@ -1,0 +1,341 @@
+<Config>
+    <append xpath="/quests" >
+        <!--SinMod Begins Here-->
+        <!--SinMod Starter Quests-->
+        <quest id="quest_StartWorldsEnd">
+            <property name="name" value="Welcome to Worlds End" />
+            <property name="subtitle" value="Worlds End" />
+            <property name="description" value="Begin your journey!" />
+            <property name="offer" value="Welcome to Worlds End have fun.Type /commands or /help to get started. Feel free to ask for help in chat anytime. By accepting you agreed and understood the /rules if you have not please go to merqsquad.com. After accepting this scroll you will receive your Class Selector item, use recipes" />
+            <property name="group_name" value="Class"/>
+            <property name="category" value="quest" />
+            <property name="icon" value="ui_game_symbol_loot_sack" />
+            <reward type="Item" id="classSelector" value="1"/>
+        </quest>
+        <quest id="quest_classHitman">
+            <property name="name" value="Hitman Class" />
+            <property name="subtitle" value="Hitman Class" />
+            <property name="description" value="A hired gun" />
+            <property name="icon" value="ui_game_symbol_treasure" />
+            <property name="repeatable" value="false" />
+            <property name="offer" value="Memories: You were the best hitman in your organization. Your preceptive skills as a sniper were unmatched. All your targets have been eliminated but now you need to kill them again. Your mission is to secure a foothold in this new world. Location will be up to you. Survive. Included are a few supplies to get you going." />
+            <property name="group_name" value="Class"/>
+            <reward type="Skill" id="attPerception" value="3" />
+            <reward type="SkillPoints" value="2"/>
+            <reward type="Item" id="Class Case (Locked)" value="1"/>
+            <reward type="Item" id="gunHuntingRifle" value="2"/>
+            <reward type="Item" id="modGunSoundSuppressorSilencer" value="1"/>
+            <reward type="Item" id="resourceRepairKit" value="4"/>
+            <reward type="Item" id="ammo762mmBulletFMJ" value="50"/>
+            <reward type="Quest" id="challenge_hitman1" />
+        </quest>
+        <quest id="quest_classBruiser">
+            <property name="name" value="Bruiser Class" />
+            <property name="subtitle" value="Bruiser Class" />
+            <property name="description" value="Melee combat specialist" />
+            <property name="icon" value="ui_game_symbol_treasure" />
+            <property name="repeatable" value="false" />
+            <property name="offer" value="Memories: Your whole life you've survived those violent streets. Your strength kept you alive. You could knock anyone down in one swing, that's why you've made it this far. Anything you can get your hands on can become a weapon. Stashed away you have a few supplies to keep you safe for now." />
+            <property name="group_name" value="Class"/>
+            <reward type="Skill" id="attStrength" value="3" />
+            <reward type="SkillPoints" value="2"/>
+            <reward type="Item" id="Class Case (Locked)" value="1"/>
+            <reward type="Item" id="meleeToolSledgehammer" value="2"/>
+            <reward type="Item" id="modMeleeWeightedHead" value="1"/>
+            <reward type="Item" id="resourceForgedIron" value="4"/>
+            <reward type="Quest" id="challenge_bruiser1" />
+        </quest>
+        <quest id="quest_classSurvivalist">
+            <property name="name" value="Survivalist Class" />
+            <property name="subtitle" value="Survivalist Class" />
+            <property name="description" value="Living off the Land" />
+            <property name="icon" value="ui_game_symbol_treasure" />
+            <property name="repeatable" value="false" />
+            <property name="offer" value="Memories: You've rememberd to pack light to establish yourself quickly. You knew someday this will be it the World had ended and no one is your friend. You've prepared for this, you can survive. Your bug-out pack contains some supplies to make it through a few nights, but you're ready." />
+            <property name="group_name" value="Class"/>
+            <reward type="Skill" id="attFortitude" value="3" />
+            <reward type="SkillPoints" value="2"/>
+            <reward type="Item" id="Class Case (Locked)" value="1"/>
+            <reward type="Item" id="gunCompoundBow" value="2"/>
+            <reward type="Item" id="modGunBowPolymerString" value="1"/>
+            <reward type="Item" id="resourceRepairKit" value="4"/>
+            <reward type="Item" id="ammoArrowIron" value="150"/>
+            <reward type="Quest" id="challenge_survivalist1" />
+        </quest>
+        <quest id="quest_classConartist">
+            <property name="name" value="Conartist Class" />
+            <property name="subtitle" value="Conartist Class" />
+            <property name="description" value="Hides in the shadows" />
+            <property name="icon" value="ui_game_symbol_treasure" />
+            <property name="repeatable" value="false" />
+            <property name="offer" value="Memories: You were a shady one. Sly and quick. You could slip away in the shadows and in an instant, disappear completely in a moments notice. Those skills are no different to the dead as they were to the living. Just be quick and you can survive. But just in case, you packed away a few things." />
+            <property name="group_name" value="Class"/>
+            <reward type="Skill" id="attAgility" value="3" />
+            <reward type="SkillPoints" value="2"/>
+            <reward type="Item" id="Class Case (Locked)" value="1"/>
+            <reward type="Item" id="gun44Magnum" value="2"/>
+            <reward type="Item" id="modGunLaserSight" value="1"/>
+            <reward type="Item" id="resourceRepairKit" value="4"/>
+            <reward type="Item" id="ammo44MagnumBullet" value="50"/>
+            <reward type="Quest" id="challenge_conartist1" />
+        </quest>
+        <quest id="quest_classEngineer">
+            <property name="name" value="Engineer Class" />
+            <property name="subtitle" value="Engineer Class" />
+            <property name="description" value="A Jerry-Rigger" />
+            <property name="icon" value="ui_game_symbol_treasure" />
+            <property name="repeatable" value="false" />
+            <property name="offer" value="Memories: You are a master of your craft. Your skills in creating things into reality has always been your strong point. If you can think it, you can make it. It's time to build your self a new home and survive. You have a pack ready with some tools to make it in this world." />
+            <property name="group_name" value="Class"/>
+            <reward type="Skill" id="attIntellect" value="3" />
+            <reward type="SkillPoints" value="2"/>
+            <reward type="Item" id="Class Case (Locked)" value="1"/>
+            <reward type="Item" id="gunPistol" value="2"/>
+            <reward type="Item" id="modGunTriggerGroupBurst" value="1"/>
+            <reward type="Item" id="resourceRepairKit" value="4"/>
+            <reward type="Item" id="ammo9mmBullet" value="50"/>
+            <reward type="Quest" id="challenge_engineer1" />
+        </quest>
+        <!--SinMod Class Quests-->
+        <!--Hitman-->
+        <quest id="challenge_hitman1">
+            <property name="name" value="Hitman Challenge 1/3" />
+            <property name="subtitle" value="Hitman Challenge 1" />
+            <property name="description" value="A hitman likes to look his target in the eye....before blowing it out the back of his skull.  Prove your skills on some zombies." />
+            <property name="icon" value="ui_game_symbol_rifle" />
+            <property name="repeatable" value="false" />
+            <property name="shareable" value="false" />
+            <property name="group_name" value="quest_hitman"/>
+            <requirement type="Group" id="requirementGroupRifle" value="OR">
+                <requirement type="Holding" id="gunHuntingRifle" /></requirement>
+            <objective type="ZombieKill" value="25"/>
+            <reward type="Item" id="ammo762mmBulletFMJ" value="50" />
+            <reward type="SkillPoints" value="1"/>
+            <reward type="Exp" value="500" />
+            <reward type="Quest" id="challenge_hitman2" />
+        </quest>
+        <quest id="challenge_hitman2">
+            <property name="name" value="Hitman Challenge 2/3" />
+            <property name="subtitle" value="Hitman Challenge 2" />
+            <property name="description" value="A true hitman lives for the smell of cordite, don't stop killing those Z's until I tell you." />
+            <property name="icon" value="ui_game_symbol_rifle" />
+            <property name="repeatable" value="false" />
+            <property name="shareable" value="false" />
+            <property name="group_name" value="quest_hitman"/>
+            <requirement type="Group" id="requirementGroupRifle" value="OR">
+                <requirement type="Holding" id="gunHuntingRifle" /></requirement>
+            <objective type="ZombieKill" value="50"/>
+            <reward type="Item" id="ammo762mmBulletFMJ" value="75" />
+            <reward type="SkillPoints" value="2"/>
+            <reward type="Exp" value="1000" />
+            <reward type="Quest" id="challenge_hitman3" />
+        </quest>
+        <quest id="challenge_hitman3">
+            <property name="name" value="Hitman Challenge 3/3" />
+            <property name="subtitle" value="Hitman Challenge 3" />
+            <property name="description" value="This is my rifle, this is my gun. This is for killing Z's, this is for fun!" />
+            <property name="icon" value="ui_game_symbol_rifle" />
+            <property name="repeatable" value="false" />
+            <property name="shareable" value="false" />
+            <property name="group_name" value="quest_hitman"/>
+            <requirement type="Group" id="requirementGroupRifle" value="OR">
+                <requirement type="Holding" id="gunHuntingRifle" /></requirement>
+            <objective type="ZombieKill" value="100"/>
+            <reward type="Item" id="ammo762mmBulletFMJ" value="150" />
+            <reward type="SkillPoints" value="5"/>
+            <reward type="Exp" value="1500" />
+        </quest>
+        <!--Bruiser-->
+        <quest id="challenge_bruiser1">
+            <property name="name" value="Bruiser Challenge 1/3" />
+            <property name="subtitle" value="Bruiser Challenge 1" />
+            <property name="description" value="Slam those Zombies into the ground like you want to do in that carnival game you lost at." />
+            <property name="icon" value="ui_game_symbol_rifle" />
+            <property name="repeatable" value="false" />
+            <property name="shareable" value="false" />
+            <property name="group_name" value="quest_bruiser"/>
+            <requirement type="Group" id="requirementGroupSledge" value="OR">
+                <requirement type="Holding" id="meleeToolSledgehammer" /></requirement>
+            <objective type="ZombieKill" value="25"/>
+            <reward type="Item" id="resourceForgedIron" value="15" />
+            <reward type="SkillPoints" value="1"/>
+            <reward type="Exp" value="500" />
+            <reward type="Quest" id="challenge_bruiser2" />
+        </quest>
+        <quest id="challenge_bruiser2">
+            <property name="name" value="Bruiser Challenge 2/3" />
+            <property name="subtitle" value="Bruiser Challenge 2" />
+            <property name="description" value="Are you better at smashing than the Hulk. Make sure they don't get back up." />
+            <property name="icon" value="ui_game_symbol_rifle" />
+            <property name="repeatable" value="false" />
+            <property name="shareable" value="false" />
+            <property name="group_name" value="quest_bruiser"/>
+            <requirement type="Group" id="requirementGroupSledge" value="OR">
+                <requirement type="Holding" id="meleeToolSledgehammer" /></requirement>
+            <objective type="ZombieKill" value="50"/>
+            <reward type="Item" id="resourceForgedIron" value="25" />
+            <reward type="SkillPoints" value="2"/>
+            <reward type="Exp" value="1000" />
+            <reward type="Quest" id="challenge_bruiser3" />
+        </quest>
+        <quest id="challenge_bruiser3">
+            <property name="name" value="Bruiser Challenge 3/3" />
+            <property name="subtitle" value="Bruiser Challenge 3" />
+            <property name="description" value="Watch their heads explode like a melon. How many can you get in a row?" />
+            <property name="icon" value="ui_game_symbol_rifle" />
+            <property name="repeatable" value="false" />
+            <property name="shareable" value="false" />
+            <property name="group_name" value="quest_bruiser"/>
+            <requirement type="Group" id="requirementGroupSledge" value="OR">
+                <requirement type="Holding" id="meleeToolSledgehammer" /></requirement>
+            <objective type="ZombieKill" value="100"/>
+            <reward type="Item" id="resourceForgedIron" value="50" />
+            <reward type="SkillPoints" value="5"/>
+            <reward type="Exp" value="1500" />
+        </quest>
+        <!--Survivalist-->
+        <quest id="challenge_survivalist1">
+            <property name="name" value="Survivalist Challenge 1/3" />
+            <property name="subtitle" value="Survivalist Challenge 1" />
+            <property name="description" value="MEDIC!! Wait don't heal! Shoot the sucker!" />
+            <property name="icon" value="ui_game_symbol_campfire" />
+            <property name="repeatable" value="false" />
+            <property name="shareable" value="false" />
+            <property name="group_name" value="quest_survivalist"/>
+            <requirement type="Group" id="requirementGroupCompoundBow" value="OR">
+                <requirement type="Holding" id="gunCompoundBow" /></requirement>
+            <objective type="ZombieKill" value="25"/>
+            <reward type="Item" id="ammoArrowIron" value="50" />
+            <reward type="SkillPoints" value="1"/>
+            <reward type="Exp" value="500" />
+            <reward type="Quest" id="challenge_survivalist2" />
+        </quest>
+        <quest id="challenge_survivalist2">
+            <property name="name" value="Bruiser Challenge 2/3" />
+            <property name="subtitle" value="Bruiser Challenge 2" />
+            <property name="description" value="You think you can survive a horde? Well Do ya?" />
+            <property name="icon" value="ui_game_symbol_campfire" />
+            <property name="repeatable" value="false" />
+            <property name="shareable" value="false" />
+            <property name="group_name" value="quest_bruiser"/>
+            <requirement type="Group" id="requirementGroupCompoundBow" value="OR">
+                <requirement type="Holding" id="gunCompoundBow" /></requirement>
+            <objective type="ZombieKill" value="50"/>
+            <reward type="Item" id="ammoArrowIron" value="75" />
+            <reward type="SkillPoints" value="2"/>
+            <reward type="Exp" value="1000" />
+            <reward type="Quest" id="challenge_bruiser3" />
+        </quest>
+        <quest id="challenge_survivalist3">
+            <property name="name" value="Bruiser Challenge 3/3" />
+            <property name="subtitle" value="Bruiser Challenge 3" />
+            <property name="description" value="So you think you're skilled with that Compound Bow? Well here's your chance." />
+            <property name="icon" value="ui_game_symbol_campfire" />
+            <property name="repeatable" value="false" />
+            <property name="shareable" value="false" />
+            <property name="group_name" value="quest_bruiser"/>
+            <requirement type="Group" id="requirementGroupCompoundBow" value="OR">
+                <requirement type="Holding" id="gunCompoundBow" /></requirement>
+            <objective type="ZombieKill" value="100"/>
+            <reward type="Item" id="ammoArrowIron" value="150" />
+            <reward type="SkillPoints" value="5"/>
+            <reward type="Exp" value="1500" />
+        </quest>
+        <!--Conartist-->
+        <quest id="challenge_conartist1">
+            <property name="name" value="Conartist Challenge 1/3" />
+            <property name="subtitle" value="Conartist Challenge 1" />
+            <property name="description" value="You wanna buy a watch? No? How about a gun?" />
+            <property name="icon" value="ui_game_symbol_rifle" />
+            <property name="repeatable" value="false" />
+            <property name="shareable" value="false" />
+            <property name="group_name" value="quest_conartist"/>
+            <requirement type="Group" id="requirementGroupMagnum" value="OR">
+                <requirement type="Holding" id="gun44Magnum" /></requirement>
+            <objective type="ZombieKill" value="25"/>
+            <reward type="Item" id="ammo44MagnumBullet" value="50" />
+            <reward type="SkillPoints" value="1"/>
+            <reward type="Exp" value="500" />
+            <reward type="Quest" id="challenge_conartist2" />
+        </quest>
+        <quest id="challenge_conartist2">
+            <property name="name" value="Conartist Challenge 2/3" />
+            <property name="subtitle" value="Conartist Challenge 2" />
+            <property name="description" value="Well now they are mad! I got your back. You shoot, I'll run!" />
+            <property name="icon" value="ui_game_symbol_rifle" />
+            <property name="repeatable" value="false" />
+            <property name="shareable" value="false" />
+            <property name="group_name" value="quest_conartist"/>
+            <requirement type="Group" id="requirementGroupMagnum" value="OR">
+                <requirement type="Holding" id="gun44Magnum" /></requirement>
+            <objective type="ZombieKill" value="50"/>
+            <reward type="Item" id="ammo44MagnumBullet" value="75" />
+            <reward type="SkillPoints" value="2"/>
+            <reward type="Exp" value="1000" />
+            <reward type="Quest" id="challenge_conartist3" />
+        </quest>
+        <quest id="challenge_conartist3">
+            <property name="name" value="Conartist Challenge 3/3" />
+            <property name="subtitle" value="Bruiser Challenge 3" />
+            <property name="description" value="Wow! You use your mouth better that a two dollar whore." />
+            <property name="icon" value="ui_game_symbol_rifle" />
+            <property name="repeatable" value="false" />
+            <property name="shareable" value="false" />
+            <property name="group_name" value="quest_conartist"/>
+            <requirement type="Group" id="requirementGroupMagnum" value="OR">
+                <requirement type="Holding" id="gun44Magnum" /></requirement>
+            <objective type="ZombieKill" value="100"/>
+            <reward type="Item" id="ammo44MagnumBullet" value="150" />
+            <reward type="SkillPoints" value="5"/>
+            <reward type="Exp" value="1500" />
+        </quest>
+        <!--Engineer-->
+        <quest id="challenge_engineer1">
+            <property name="name" value="Engineer Challenge 1/3" />
+            <property name="subtitle" value="Engineer Challenge 1" />
+            <property name="description" value="Wrench! Hammer! Brains.... Wait WHAT!?" />
+            <property name="icon" value="ui_game_symbol_wrench" />
+            <property name="repeatable" value="false" />
+            <property name="shareable" value="false" />
+            <property name="group_name" value="quest_engineer"/>
+            <requirement type="Group" id="requirementGroupPistol" value="OR">
+                <requirement type="Holding" id="gunPistol" /></requirement>
+            <objective type="ZombieKill" value="25"/>
+            <reward type="Item" id="ammo9mmBullet" value="50" />
+            <reward type="SkillPoints" value="1"/>
+            <reward type="Exp" value="500" />
+            <reward type="Quest" id="challenge_engineer2" />
+        </quest>
+        <quest id="challenge_engineer2">
+            <property name="name" value="Bruiser Challenge 2/3" />
+            <property name="subtitle" value="Bruiser Challenge 2" />
+            <property name="description" value="If we can build it, they will come... and come... and come...." />
+            <property name="icon" value="ui_game_symbol_wrench" />
+            <property name="repeatable" value="false" />
+            <property name="shareable" value="false" />
+            <property name="group_name" value="quest_bruiser"/>
+            <requirement type="Group" id="requirementGroupPistol" value="OR">
+                <requirement type="Holding" id="gunPistol" /></requirement>
+            <objective type="ZombieKill" value="50"/>
+            <reward type="Item" id="ammo9mmBullet" value="75" />
+            <reward type="SkillPoints" value="2"/>
+            <reward type="Exp" value="1000" />
+            <reward type="Quest" id="challenge_bruiser3" />
+        </quest>
+        <quest id="challenge_engineer3">
+            <property name="name" value="Bruiser Challenge 3/3" />
+            <property name="subtitle" value="Bruiser Challenge 3" />
+            <property name="description" value="Alright! We built as much as we could for now. Take them Z's out!" />
+            <property name="icon" value="ui_game_symbol_wrench" />
+            <property name="repeatable" value="false" />
+            <property name="shareable" value="false" />
+            <property name="group_name" value="quest_bruiser"/>
+            <requirement type="Group" id="requirementGroupPistol" value="OR">
+                <requirement type="Holding" id="gunPistol" /></requirement>
+            <objective type="ZombieKill" value="100"/>
+            <reward type="Item" id="ammo9mmBullet" value="150" />
+            <reward type="SkillPoints" value="5"/>
+            <reward type="Exp" value="1500" />
+        </quest>
+    </append>
+</Config>

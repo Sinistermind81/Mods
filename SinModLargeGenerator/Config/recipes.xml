@@ -1,0 +1,13 @@
+<SinModLargeGenerator>
+    <append xpath="/recipes">
+
+        <recipe name="largeGeneratorBank" count="1" craft_time="1000" craft_area="workbench" tags="perkAdvancedEngineering,learnable">
+            <ingredient name="resourceForgedSteel" count="200"/>
+            <ingredient name="resourceMechanicalParts" count="250"/>
+            <ingredient name="resourceElectricParts" count="250"/>
+            <ingredient name="resourceOil" count="100"/>
+            <ingredient name="carBattery" count="2"/>
+        </recipe>
+
+    </append>
+</SinModLargeGenerator>

@@ -1,0 +1,22 @@
+Key,File,Type,UsedInMainMenu,NoTranslate,english,Context / Alternate Text,german,spanish,french,italian,japanese,koreana,polish,brazilian,russian,turkish,schinese,tchinese
+adminToolRepairT3Nailgun,items,Admin,,,Admin Building Block Tool,,,,,,,,,,,,,
+adminToolRepairT3NailgunDesc,items,Admin,,,Tool needed to destroy or repair any admin building blocks,,,,,,,,,,,,,
+adminBarbedWire,blocks,Trap,,,Admin Barbed Wire,,,,,,,,,,,,,
+adminBlocks,blocks,Admin,,,Admin Building Block,,,,,,,,,,,,,
+adminGlassBulletproofMaster,blocks,Admin,,,Admin Glass Block,,,,,,,,,,,,,
+adminGlassBulletproofBlock,blocks,Admin,,,Admin Glass Block,,,,,,,,,,,,,
+adminGlassBulletproofPlate,blocks,Admin,,,Admin Glass Plate,,,,,,,,,,,,,
+adminGlassOpaqueBulletproofPlate,blocks,Admin,,,Admin Glass Opaque Plate,,,,,,,,,,,,,
+adminGlassBulletproofCTRPlate,blocks,Admin,,,Admin Glass CTR Plate,,,,,,,,,,,,,
+adminGlassOpaqueBulletproofCTRPlate,blocks,Admin,,,Admin Glass Opaque CTR Plate,,,,,,,,,,,,,
+adminGlassBulletproofPlateCurved,blocks,Admin,,,Admin Glass Curved Plate,,,,,,,,,,,,,
+adminGlassBulletproofRamp,blocks,Admin,,,Admin Glass Ramp,,,,,,,,,,,,,
+adminGlassBulletproofRampSheet,blocks,Admin,,,Admin Glass Ramp Sheet,,,,,,,,,,,,,
+adminGlassBulletproofBlockVariantHelper,blocks,Admin,,,Admin Glass Block Selector,,,,,,,,,,,,,
+resourceAdminResource,items,Admin,,,Admin Repair Resource,,,,,,,,,,,,,
+resourceAdminResourceDesc,items,Admin,,,Resource needed to repair any admin building blocks.,,,,,,,,,,,,,
+
+
+
+
+

@@ -1,0 +1,14 @@
+Key,Source,Context,UsedInMainMenu,NoTranslate,english
+
+StarterBag(Locked),items,item,,,Starter Bag (Punch Me)
+StarterBag(Locked)Desc,items,item,,,"HEY!!! It's your starter bag place on ground and hit to open."
+
+StarterBag,items,item,,,Starter Bag 
+StarterBagDesc,items,item,,,"HEY!!! It's your starter bag place on ground and hit to open."
+
+challengeSinQuest,items,item,,,The Sin Challenge
+challengeSinQuestDesc,items,item,,,"Starter quest series for survivors."
+
+requirementGroupBeginner,Quest,Requirement Group,,,Holding Beginner Weapon
+requirementGroupAdvanced,Quest,Requirement Group,,,Holding Advanced Weapon
+requirementGroupExpert,Quest,Requirement Group,,,Holding Expert Weapon

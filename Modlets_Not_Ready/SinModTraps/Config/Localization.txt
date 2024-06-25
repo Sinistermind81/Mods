@@ -1,0 +1,8 @@
+Key,UsedInMainMenu,Source,Context,Changes,English,French,German,Klingon,Spanish,Polish
+trapFire,,blocks,Workstation,KgNone,Fire Trap,,,,,
+trapFireDesc,blocks,Workstation,KgNone,Danger Live Fire Trap,,,,
+
+trapFireEmpty,blocks,Workstation,KgNone,Empty Fire Trap,,,,
+trapFireEmptyDesc,blocks,Workstation,KgNone,Needs Kerosene,,,,
+
+perkAdvancedEngineeringRank4LongDesc,progression,perk Int,,,"Learn to craft shotgun turrets for short range concentrated base defense, battery banks, nail guns, fire traps and kerosene. Gain 35% XP from electrical trap kills.\nAll forge recipes cost 15% less, crafting Forged Steel and electrical devices costs 25% less."

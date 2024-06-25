@@ -1,0 +1,4 @@
+Key,File,Type,UsedInMainMenu,NoTranslate,english
+
+artisanBench,blocks,Workstation,,,Artisan Workbench
+artisanBenchDesc,blocks,Workstation,,,Tired of trying to find the right color dye for your outfit!! Look no further craft dyes right here on the Artisan Workbench

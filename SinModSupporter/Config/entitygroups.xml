@@ -1,0 +1,8 @@
+<SinModSupporter>
+    <append xpath="/entitygroups">
+        <entitygroup name="DonorCrates_General">
+            sc_Donor
+        </entitygroup>
+    </append>
+</SinModSupporter>
+    

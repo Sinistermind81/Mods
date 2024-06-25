@@ -1,0 +1,35 @@
+<SinModStarterBag>
+    <append xpath="/blocks">
+        <block name="StarterBag(Locked)">
+            <property name="Group" value="Class System" />
+            <property name="CreativeMode" value="Dev"/>
+            <property name="CustomIcon" value="cntLuggageBigClosed" />
+            <property name="DescriptionKey" value="StarterBag(Locked)Desc"/>
+            <property name="Material" value="Mcloth" />
+            <property name="Shape" value="ModelEntity"/>
+            <property name="Mesh" value="models" />
+            <property name="Model" value="#Entities/LootContainers?luggageBigClosedPrefab.prefab"/>
+            <property name="Place" value="TowardsPlacer" />
+            <drop event="Destroy" count="0" prob="1" />
+            <property name="CanPickup" value="false" />
+            <property name="DowngradeBlock" value="StarterBag" />
+        </block>
+
+        <block name="StarterBag">
+            <property name="Class" value="Loot" />
+            <property name="Group" value="Survival" />
+            <property name="CreativeMode" value="Dev"/>
+            <property name="CustomIcon" value="cntLuggageBigOpen" />
+            <property name="DescriptionKey" value="StarterBagDesc"/>
+            <property name="Material" value="Mcloth" />
+            <property name="Shape" value="ModelEntity"/>
+            <property name="Mesh" value="models" />
+            <property name="Model" value="#Entities/LootContainers?luggageBigEmptyPrefab.prefab"/>
+            <property name="Place" value="TowardsPlacer" />
+            <property name="LootList" value="350" />
+            <drop event="Destroy" count="0" />
+            <drop event="Fall" name="woodDebris" count="1" prob="1.0" stick_chance=".75" />
+            <property name="LPHardnessScale" value="8" />
+        </block>
+    </append>
+</SinModStarterBag>

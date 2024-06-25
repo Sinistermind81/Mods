@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xml>
+	<ModInfo>
+		<Name value="SinModJBox" />
+		<Description value="Adds blocks, switches, junction boxes and electrical connections. " />
+		<Author value="SinisterMind81" />
+		<Version value="1.0" compat="A19" />
+		<Website value="http://www.merqsquad.org" />
+	</ModInfo>
+</xml>

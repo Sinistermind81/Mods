@@ -1,0 +1,4 @@
+Key,File,Type,UsedInMainMenu,NoTranslate,english
+
+largeGeneratorBank,blocks,Electricity,,,Large Generator Bank
+

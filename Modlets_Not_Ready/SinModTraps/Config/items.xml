@@ -1,0 +1,36 @@
+<SinModTraps>
+    <append xpath="/items">
+        <item name="ammoKeroseneCan">
+            <property name="CustomIcon" value="ammoGasCan"/>
+            <property name="CustomIconTint" value="ffd300"/>
+            <property name="DescriptionKey" value="ammoKeroseneCanDesc"/>
+            <property name="Tags" value="gasoline"/>
+            <property name="HoldType" value="45"/>
+            <property name="Meshfile" value="#Other/Items?Misc/sackPrefab.prefab"/>
+            <property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+            <property name="Material" value="MFuelBarrelMetal"/>
+            <property name="Stacknumber" value="10000"/>
+            <!-- STK resource -->
+            <property name="FuelValue" value="2"/>
+            <property name="DegradationBreaksAfter" value="false"/>
+            <property class="Action1">
+                <!-- AttackAction -->
+                <property name="Class" value="Repair"/>
+                <property name="Delay" value="0.2"/>
+                <property name="Repair_amount" value="1"/>
+                <property name="Upgrade_hit_offset" value="0"/>
+                <property name="Allowed_upgrade_items" value="ammoKeroseneCan"/>
+                <property name="UsePowerAttackAnimation" value="false"/>
+            </property>
+            <effect_group name="Base Effects" tiered="false">
+                <passive_effect name="DegradationMax" operation="base_set" value="100" />
+            </effect_group>
+            <property name="EconomicValue" value="10"/>
+            <!-- oil barrel 500 -->
+            <property name="EconomicBundleSize" value="100"/>
+            <property name="Group" value="Resources,Chemicals,CFChemicals"/>
+            <property name="UnlockedBy" value="perkAdvancedEngineering"/>
+            <property name="CraftingIngredientTime" value=".05"/>
+        </item>
+    </append>
+</SinModTraps>

@@ -1,0 +1,3 @@
+<SinModJBox>
+	<append xpath="//passive_effect[@name='RecipeTagUnlocked'][contains(@tags,'electricwirerelay')]/@tags"></append>
+</SinModJBox>

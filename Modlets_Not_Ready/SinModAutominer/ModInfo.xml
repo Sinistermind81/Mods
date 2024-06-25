@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xml>
+	<ModInfo>
+		<Name value="SinModAutominer" />
+		<Description value="Automining machine that uses diesel fuel in exchange for resources, can be startered every 3 hours." />
+		<Author value="Sinistermind81" />
+		<Version value="2.2" />
+	</ModInfo>
+</xml>

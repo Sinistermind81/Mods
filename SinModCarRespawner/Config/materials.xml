@@ -1,0 +1,11 @@
+<SinModCarRespawner>
+    <append xpath="/materials">
+    <!--SinMod Car Respawner-->
+        <material id="airRespawner">
+            <property name="collidable" value="false" />
+            <property name="lightopacity" value="0" />
+            <property name="Hardness" type="float" value="50000" />
+            <property name="Mass" type="int" value="30" />
+        </material>
+    </append>
+</SinModCarRespawner>

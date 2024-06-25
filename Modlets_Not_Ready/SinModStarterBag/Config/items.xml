@@ -1,0 +1,11 @@
+<SinModStarterBag>
+    <append xpath="/items">
+        <item name="challengeSinQuest">
+            <property name="Extends" value="challengeQuestMaster" />
+            <property name="DescriptionKey" value="challengeSinQuestDesc"/>
+            <property class="Action0">
+                <property name="QuestGiven" value="challenge_sinstarter1" />
+            </property>
+        </item>
+    </append>
+</SinModStarterBag>

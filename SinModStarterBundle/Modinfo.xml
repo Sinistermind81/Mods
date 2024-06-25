@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xml>
+	<Name value="SinModStarterBundle" />
+	<DisplayName value="SinMod Starter Bundle" />
+	<Description value="Adds A Starter Bundle For New Players." />
+	<Author value="SinisterMind81" />
+	<Version value="1.0.0" compat="v1.0" />
+	<Website value="" />
+</xml>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xml>
+	<ModInfo>
+		<Name value="SinModStarterClass" />
+		<Description value="Starter classes to give the game more depth" />
+		<Author value="Sinistermind81" />
+		<Version value="2.1.0" />
+		<Website value="https://www.merqsquad.com" />
+	</ModInfo>
+</xml>

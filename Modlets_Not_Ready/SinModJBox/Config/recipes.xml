@@ -1,0 +1,15 @@
+<SinModJBox>
+	<append xpath="/recipes">
+
+		<recipe name="JunctionBox" count="1" craft_area="workbench">
+		  <ingredient name="resourceElectricParts" count="3"/>
+		  <ingredient name="resourceForgedIron" count="1"/>
+		</recipe>
+
+		<recipe name="JunctionBox2" count="1" craft_area="workbench">
+		  <ingredient name="resourceElectricParts" count="3"/>
+		  <ingredient name="resourceForgedIron" count="1"/>
+		</recipe>
+
+	</append>
+</SinModJBox>

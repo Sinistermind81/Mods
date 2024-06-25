@@ -1,0 +1,16 @@
+<SinModAutominer>
+    <append xpath="/recipes">
+        <recipe name="autoMinerOff" count="1" craft_time = "600" craft_exp_gain="300" craft_area="workbench" tags="learnable">
+            <ingredient name="resourceForgedSteel" count="500"/>
+            <ingredient name="resourceMechanicalParts" count="100"/>
+            <ingredient name="resourceElectricParts" count="100"/>
+            <ingredient name="carBattery" count="1"/>
+            <ingredient name="meleeToolPickT3Auger" count="1"/>
+        </recipe>
+
+        <recipe name="ammoDieselCan" count="100" craft_time="300" craft_exp_gain="300" craft_area="chemistryStation" tags="learnable">
+            <ingredient name="ammoGasCan" count="10000"/>
+            <ingredient name="resourceOil" count="1000"/>
+        </recipe>
+    </append>
+</SinModAutominer>

@@ -1,0 +1,6 @@
+<SinModLargeGenerator>
+
+    <append xpath="/progression/crafting_skills/crafting_skill[@name='craftingElectrician']/display_entry[@name_key='electricianT4' and @unlock_level='75']/unlock_entry/@item">,largeGeneratorBank</append>
+    <append xpath="/progression/crafting_skills/crafting_skill[@name='craftingElectrician']/effect_group/passive_effect[@name='RecipeTagUnlocked' and @level='75,100']/@tags">,largeGeneratorBank</append>
+
+</SinModLargeGenerator>

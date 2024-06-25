@@ -1,0 +1,44 @@
+<Config>
+    <append xpath="/recipes" >
+        <!--SinMod Ammo Dismantle -->
+        <recipe name="dismantle9mmBulletBall" count="1" craft_area="workbench" tags="learnable">
+            <ingredient name="ammo9mmBulletBall" count="10"/>
+        </recipe>
+        <recipe name="dismantle9mmBulletAP" count="1" craft_area="workbench" tags="learnable">
+            <ingredient name="ammo9mmBulletAP" count="10"/>
+        </recipe>
+        <recipe name="dismantle9mmBulletHP" count="1" craft_area="workbench" tags="learnable">
+            <ingredient name="ammo9mmBulletHP" count="10"/>
+        </recipe>
+
+        <recipe name="dismantle44MagnumBulletBall" count="1" craft_area="workbench" tags="learnable">
+            <ingredient name="ammo44MagnumBulletBall" count="10"/>
+        </recipe>
+        <recipe name="dismantle44MagnumBulletHP" count="1" craft_area="workbench" tags="learnable">
+            <ingredient name="ammo44MagnumBulletHP" count="10"/>
+        </recipe>
+          <recipe name="dismantle44MagnumBulletAP" count="1" craft_area="workbench" tags="learnable">
+            <ingredient name="ammo44MagnumBulletAP" count="10"/>
+        </recipe>
+
+        <recipe name="dismantle762mmBulletBall" count="1" craft_area="workbench" tags="learnable">
+            <ingredient name="ammo762mmBulletBall" count="10"/>
+        </recipe>
+        <recipe name="dismantle762mmBulletHP" count="1" craft_area="workbench" tags="learnable">
+            <ingredient name="ammo762mmBulletHP" count="10"/>
+        </recipe>
+        <recipe name="dismantle762mmBulletAP" count="1" craft_area="workbench" tags="learnable">
+            <ingredient name="ammo762mmBulletAP" count="10"/>
+        </recipe>
+
+        <recipe name="dismantleShotgunShell" count="1" craft_area="workbench" tags="learnable">
+            <ingredient name="ammoShotgunShell" count="10"/>
+        </recipe>
+        <recipe name="dismantleShotgunSlug" count="1" craft_area="workbench">
+            <ingredient name="ammoShotgunSlug" count="10"/>
+        </recipe>
+        <recipe name="dismantleShotgunBreachingSlug" count="1" craft_area="workbench">
+            <ingredient name="ammoShotgunBreachingSlug" count="10"/>
+        </recipe>
+    </append>
+</Config>
