@@ -30,7 +30,7 @@
 
         <item_modifier name="modSinFastHands" installable_tags="armorHands" modifier_tags="ammo" blocked_tags="noMods" type="attachment">
             <property name="Extends" value="modGeneralMaster"/>
-            <property name="CustomIcon" value="armorIronGloves"/>
+            <property name="CustomIcon" value="armorNomadGloves"/>
             <property name="CustomIconTint" value="FF0000" />
             <effect_group tiered="false">
                 <requirement name="ItemHasTags" tags="armorHands"/>
