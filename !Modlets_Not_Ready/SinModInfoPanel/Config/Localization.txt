@@ -1,0 +1,46 @@
+Key,Context,English
+NameServer,UI,Info Panel Server
+
+link1,,Discord
+link1url,Web,https://discord.gg/cMbb3tY
+link1hover,UI,DISCORD
+
+link1,,Vote Here
+link2url,Web,https://7daystodie-servers.com/server/139202/vote/
+link2hover,UI,Vote
+
+Text1,UI,"- Respect all players. No racial/homophobic/hate speech.\n- We will not tolerate any cheating/exploiting!\n- Do not kill other players, such as by setting traps or using fire. This is a PvE server.\n- Do not go to another player’s base that isn’t yours. Base raiding is prohibited, even if the base doesn’t have a LCB.\n- Do not build within 100 blocks of the lobby, horde base, cardinal teleports, trader, or any reset zone.\n- Do not build in prefabs or POI's.\n- FARMS are only 31×31 max (one level). If you go over the limit Team Members will wipe the area.\n- No more than 3 of each station per player, per type. You can NOT combine if in a team. This is PER PLAYER and PER LOCATION.\n- No more than 30 trees max per base, team, player!\n- Vehicles at your own risk! We will NOT replace any vehicles. Vehicles have always been glitchy. They are known to just disappear, fall to the ground and get stuck. If you use any type of vehicle it’s on you. We will not be responsible. Keep vehicles in your backpacks/toolbelt or storage crate when not in use. Reboots wipe all vehicles left out in-game. Vehicles are known to cause maps to glitch which causes them to disappear, fall to the ground and get stuck. Drones that are left out will be removed just like vehicles. Please pick them up before you exit the game."
+Text2,UI,"COMMANDS:\n\n/sethome - sets home location.\n/delhome - Delete a player's set home location.\n/home - Teleport back to your home location.(costs 100 Zennies, 40 minute cooldown)\n/claim vote - Claim your reward for voting for the server at 7daystodie-servers.com(Can only be claimed once per day.)\n/lottery - See how big the lottery is and how many tickets you have in the draw.\n/gamble - Buy a ticket in the next daily lottery. (costs 25 Zennies)\n/cash or /wallet or /bank - Tells you how many Zennies you have.\n/thecage - Safe place for players to go for horde night.\n/return - Teleport back to where you came from before your last teleport command.\n/stuck - Teleport you to the highest ground level at your location.\n/gimme - Play one gimme - win a prize!\n/quit or /ragequit - Get kicked out of the server with a random message.\n/suicide - Don't do it! :O\n/gimmezombies or /gimmehell or /gimmeinsane or /gimmedeath - Play a special gimme game in a location called arena. You and anyone with you will get 4 waves of zombies to fight. Select one of 4 games of increasing difficulty (more zombies, faster spawns, harder zombies). Note: Only works if teleport location /arena is working.\n/doge mode or /doge on/off - But what does it do!? Play and find out xD\n\nLOCATIONS:\n\n/thecage - Horde night Safe place\n/lobby - Central location for players to gather and meet.\n/arena - Event location for server.\n"
+Text3,UI,""
+Text4,UI,""
+Text5,UI,""
+Text6,UI,""
+Text7,UI,""
+Text8,UI,""
+Text9,UI,""
+Text10,UI,""
+Text11,UI,""
+Text12,UI,""
+Text13,UI,""
+Text14,UI,""
+Text15,UI,""
+Text16,UI,""
+
+
+
+b_name1,UI,"Server Rules"
+b_name2,UI,"In Game Commands"
+b_name3,UI,""
+b_name4,UI,""
+b_name5,UI,""
+b_name6,UI,""
+b_name7,UI,""
+b_name8,UI,""
+b_name9,UI,""
+b_name10,UI,""
+b_name11,UI,""
+b_name12,UI,""
+b_name13,UI,""
+b_name14,UI,""
+b_name15,UI,""
+b_name16,UI,""
