@@ -51,7 +51,7 @@
                 <property name="Upgrade_action_sound" value="nailgun_fire"/>
                 <property name="Allowed_upgrade_items" value="resourceAdminResource,resourceWood,resourceClayLump,resourceSnowBall,resourceScrapIron,resourceForgedIron,resourceForgedSteel,resourceConcreteMix,resourceCobblestones,ironDoorBlockVariantHelper,ironDoorDoubleBlockVariantHelper,vaultDoor01,vaultDoor01Double,ironHatchBlockVariantHelper,vaultHatch01,cellarDoorDoubleIron,cellarDoorDoubleSteel,shuttersIronBlockVariantHelper,shuttersSteelBlockVariantHelper,resourceYuccaFibers,resourceCloth,resourceScrapPolymers,resourceNail"/>
             </property>
-            <effect_group name="adminToolRepairT3Nailgun"> <!-- meleeToolRepairT3Nailgun -->
+            <effect_group tiered="false"> <!-- meleeToolRepairT3Nailgun -->
             	<passive_effect name="RoundsPerMinute" operation="base_set" value="450"/>
 		        <passive_effect name="BurstRoundCount" operation="base_set" value="1000"/>
                 <passive_effect name="EntityDamage" operation="base_set" value="0"/>

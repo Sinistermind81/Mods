@@ -23,35 +23,26 @@
             <property name="Group" value="Special Items"/>
             <property name="FilterTags" value="MC_Shapes"/>
         </block>
+
         <block name="adminBarbedWire">
-            <property name="CreativeMode" value="Dev"/>
+        	<property name="Extends" value="chainlinkFenceBottomPlain"/>
             <property name="Class" value="Damage"/>
-            <property name="CustomIcon" value="barbedWireSheet"/>
+            <property name="CustomIcon" value="chainlinkFenceBottomPlain"/>
             <property name="Damage" value="1"/>
             <property name="DamageType" value="BarbedWire"/>
             <property name="Damage_received" value="6"/>
             <property name="Material" value="MadminsWire"/>
-            <property name="Shape" value="New"/>
-            <property name="ShapeMinBB" value="0.3,0,0.3"/>
-            <property name="Mesh" value="cutout"/>
-            <property name="Model" value="billboard"/>
-            <property name="Texture" value="68"/>
-            <property name="ImposterExclude" value="true"/>
-            <property name="LightOpacity" value="0"/>
-            <property name="WaterFlow" value="permitted"/>
-            <property name="Place" value="TowardsPlacerInverted"/>
-            <property name="Collide" value="movement,melee,rocket"/> <!-- -rocket -->
             <property name="VehicleHitScale" value="8"/>
             <property name="EconomicValue" value="15"/>
             <property class="RepairItems">
-                <property name="resourceAdminResource" value="15"/>
+                <property name="resourceAdminResource" value="1"/>
             </property>
-            <drop event="Destroy" name="resourceScrapIron" count="1,12"/>
+            <drop event="Destroy" name="resourceScrapIron" count="1"/>
             <property name="SortOrder1" value="B752"/>
             <property name="SortOrder2" value="0000"/>
-            <property name="Group" value="Building,advBuilding"/>
+            <property name="Group" value="Building"/>
             <property name="BlockTag" value="Spike"/>
-            <property name="FilterTags" value="MC_building,SC_traps,A21_NEW"/>
+            <property name="FilterTags" value="MC_building,SC_traps"/>
         </block>
 
         <block name="adminGlassBulletproofMaster">
