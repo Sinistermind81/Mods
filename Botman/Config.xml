@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Botman>
+
+    <Configs>
+        <config name="allocs_web_file" location="C:\AMPDatastore\Instances\SinModVanilla01\seven-days-to-die\294420\Mods\Allocs_WebAndMapRendering\webserver_legacy\js\map.js"/> <!-- Specific directory location to "Mods/Allocs_WebAndMapRendering/webserver/js/map.js" -->
+        <config name="anticheat" enabled="False" />
+        <config name="botname" text="Botman" color-public="ffffff" color-private="FFDEAD" />
+        <config name="chat_level_prefix" enabled="False" color="ff0000"/>
+        <config name="chatcommands" prefix="/" hide="True" />
+        <config name="clans" enabled="False" max_clans="10" max_players="5" required_level_to_create="25" />
+        <config name="dronefiledelete" enabled="False" />
+        <config name="dropminer" enabled="False" />
+        <config name="custommessages" enabled="False" />
+        <config name="level_achievement_reward" enabled="False" dukes="1000" max_level="10" />
+        <config name="lcbprefabrule" enabled="False" distance="25" />
+        <config name="milestones" enabled="False" />
+        <config name="resetallprefabs" enabled="False" days_between_resets="0"  />
+        <config name="resetareas" enabled="False" days_between_resets="3"  />
+        <config name="resetregions" enabled="False" prefabsonly="False" days_between_resets="3" remove_lcbs="True" />
+        <config name="vehiclefiledelete" enabled="False" />
+        <config name="webmaptraceprefabs" enabled="False" color="00ff00" />
+        <config name="webmaptracetraders" enabled="False" color="FF0000" />
+        <config name="webmaptraceresetareas" enabled="False" color="FF4500"/>
+        <config name="webmaptraceresetregions" enabled="False" color="FF4500"/>
+        <config name="zombieannouncer" enabled="False" />
+        <config name="zombiefreetime" enabled="False" start="6" end="20" />
+        <config name="zones" enabled="False" />
+        <config name="version" value="A21_v13_for_A21+" />
+    </Configs>
+
+    <CustomMessages>
+        <message name="login" name_color="[00FF00]" message_color="[FFFFFF]" message="[name] has joined the game." />
+        <message name="logout" name_color="[00FF00]" message_color="[FFFFFF]" message="[name] has logged out." />
+        <message name="died" name_color="[00FF00]" message_color="[FFFFFF]" message="[name] has died." />
+        <message name="killed" killer_name_color="[FF0000]" victim_name_color="[0000FF]" message_color="[FFFFFF]" message="[killer] has killed [victim]." />
+    </CustomMessages>
+
+    <Milestones>
+       <milestone lvl="#" message="[playername] has reached [lvl]!!" />
+       <!-- Multiple lines accepted -->
+       <!-- Use [playername] and [lvl] anywhere in message to be replaced with players info -->
+    </Milestones>
+
+    <ResetRegions>
+    </ResetRegions>
+
+    <ZombieAnnouncer>
+        <entity name="zombiename" message="A Boss zombie has spawned at COORDS"/>
+    </ZombieAnnouncer>
+
+    <Zones>
+       <zone name="killzone" corner1="0,0,0" corner2="0,0,0" />
+    </Zones>
+
+    <ExemptPrefabs>
+       <prefab name="Prefab_Name_Here_01"/>
+    </ExemptPrefabs>
+
+    <ResetAreas>
+<!--       <resetarea name="namehere" x1="0" z1="0" x2="10" z2="10" /> -->
+    </ResetAreas>
+
+</Botman>

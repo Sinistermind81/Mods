@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<xml>
+  <Name value="Botman" />
+  <DisplayName value="The Botman Mod" />
+  <Version value="R1_v2_for_1.0" />
+  <Description value="For use with hosted bot" />
+  <Author value="Smegzor" />
+  <Website value="https://botman.nz/download" />
+</xml>
