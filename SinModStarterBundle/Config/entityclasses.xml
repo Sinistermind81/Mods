@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<SinModStarterBundle>
-    <!--<append xpath="/entity_classes/entity_class[@name='playerMale']/property[@name='ItemsOnEnterGame.GameModeSurvival']/@value"
-    >,q_goBagLocate</append>
-    <append xpath="/entity_classes/entity_class[@name='playerMale']/property[@name='ItemsOnEnterGame.GameModeSurvivalSP']/@value"
-    >,q_goBagLocate</append>
-    <append xpath="/entity_classes/entity_class[@name='playerMale']/property[@name='ItemsOnEnterGame.GameModeSurvivalMP']/@value"
-    >,q_goBagLocate</append>-->
-</SinModStarterBundle>
