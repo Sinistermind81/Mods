@@ -35,8 +35,8 @@
 			<property name="DescriptionKey" value="starterBundleDesc"/>
 			<property name="CustomIconTint" value="#38f5f5"/>
 			<property class="Action0">
-				<property name="Create_item" value="medicalFirstAidBandage,medicalSplint,foodCanSham,drinkJarPureMineralWater,meleeToolPickT1IronPickaxe,meleeToolShovelT1IronShovel,gunHandgunT0PipePistol,ammoBundle9mmBulletBall,meleeWpnBladeT1HuntingKnife,vehicleBicyclePlaceable,meleeToolFlashlight02,armorClothHat,armorClothGloves,armorClothJacket,armorClothPants,armorClothBoots,resourceRepairKit"/>
-				<property name="Create_item_count" value="10,1,5,5,1,1,1,2,1,1,1,1,1,1,1,1,5"/>
+				<property name="Create_item" value="medicalFirstAidBandage,medicalSplint,foodCanSham,drinkJarPureMineralWater,meleeToolPickT1IronPickaxe,meleeToolShovelT1IronShovel,gunHandgunT0PipePistol,ammoBundle9mmBulletBall,meleeWpnBladeT1HuntingKnife,vehicleBicyclePlaceable,meleeToolFlashlight02,resourceRepairKit"/>
+				<property name="Create_item_count" value="10,1,5,5,1,1,1,2,1,1,1,5"/>
 			</property>
 		</item>
 
