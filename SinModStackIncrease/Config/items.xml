@@ -1,0 +1,25 @@
+<SinModStackIncrease>
+    <set xpath="//item[starts-with(@name, 'resource')]/property[@name='Stacknumber']/@value">30000</set>    <!-- Resources -->
+    <set xpath="//item[starts-with(@name, 'resourceCrop')]/property[@name='Stacknumber']/@value">1000</set>    <!-- Gathered Crops -->
+    <set xpath="//item[starts-with(@name, 'ammo')]/property[@name='Stacknumber']/@value">5000</set>    <!-- Ammo -->
+    <set xpath="//item[starts-with(@name, 'drink')]/property[@name='Stacknumber']/@value">1000</set>    <!-- Drinks -->
+    <set xpath="//item[starts-with(@name, 'drug')]/property[@name='Stacknumber']/@value">1000</set>    <!-- Drugs -->
+    <set xpath="//item[starts-with(@name, 'food')]/property[@name='Stacknumber']/@value">1000</set>    <!-- Food -->
+    <set xpath="//item[starts-with(@name, 'medical')]/property[@name='Stacknumber']/@value">100</set>    <!-- Medical -->
+    <set xpath="//item[starts-with(@name, 'thrown')]/property[@name='Stacknumber']/@value">100</set>    <!-- Grenades & Molotovs -->
+    <set xpath="//item[starts-with(@name, 'tool')]/property[@name='Stacknumber']/@value">25</set>    <!-- Tools -->
+    <set xpath="//item[starts-with(@name, 'book')]/property[@name='Stacknumber']/@value">100</set>    <!-- Books -->
+
+    <!-- Bundles -->
+    <set xpath="//item[starts-with(@name, 'resource') and contains(@name, 'Bundle')]//property[@name='Create_item_count']/@value">30000</set>    <!-- Resource Bundles -->
+    <set xpath="//item[@name='resourceLockPickBundle']//property[@name='Create_item_count']/@value">100</set>    <!-- Lockpick Bundles -->
+    <set xpath="//item[@name='ammoGasCanBundle']//property[@name='Create_item_count']/@value">30000</set>    <!-- Gas Can Bundles -->
+
+    <!-- Exceptions & Misc -->
+    <set xpath="//item[@name='ammoGasCan']/property[@name='Stacknumber']/@value">30000</set>
+    <set xpath="//item[@name='partsMaster']/property[@name='Stacknumber']/@value">100</set> <!--Weapon and Armor Parts-->
+    <set xpath="//item[@name='schematicMaster']/property[@name='Stacknumber']/@value">100</set>
+    <set xpath="//item[@name='smallEngine']/property[@name='Stacknumber']/@value">12</set>
+    <set xpath="//item[@name='resourceLockPick']/property[@name='Stacknumber']/@value">500</set>
+    <set xpath="//item[@name='masterSkillMagazine']/property[@name='Stacknumber']/@value">100</set>
+</SinModStackIncrease>

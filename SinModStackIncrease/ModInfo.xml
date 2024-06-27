@@ -4,6 +4,6 @@
   <DisplayName value="SinMod Inventory Stack Increase" />
   <Description value="Increases stack sizes of various inventory items" />
   <Author value="SinisterMind81" />
-  <Version value="2.3.2" compat="v1.0" />
+  <Version value="2.4.0" compat="v1.0" />
   <Website value="" />
 </xml>

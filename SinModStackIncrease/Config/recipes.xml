@@ -1,11 +1,7 @@
 <SinModStackIncrease>
-    <set xpath="//recipe[starts-with(@name, 'resource') and contains(@name, 'Bundle')]/ingredient[starts-with(@name, 'resource') and @count=6000]/@count">30000</set>
-
     <!-- Resource Bundles -->
+    <set xpath="//recipe[starts-with(@name, 'resource') and contains(@name, 'Bundle')]/ingredient[starts-with(@name, 'resource') and @count=6000]/@count">30000</set>
     <set xpath="//recipe[starts-with(@name, 'resource') and contains(@name, 'Bundle')]/ingredient[starts-with(@name, 'resource') and @count=800]/@count">30000</set>
-
-    <set xpath="//recipe[starts-with(@name, 'resource') and contains(@name, 'Bundle')]/ingredient[starts-with(@name, 'resource') and @count=40]/@count">500</set>
-
+    <set xpath="//recipe[starts-with(@name, 'resource') and contains(@name, 'Bundle')]/ingredient[starts-with(@name, 'resource') and @count=40]/@count">100</set>
     <set xpath="//recipe[starts-with(@name, 'ammo') and contains(@name, 'GasCanBundle')]/ingredient[starts-with(@name, 'resource') and @count=2000]/@count">15000</set>
-
 </SinModStackIncrease>
