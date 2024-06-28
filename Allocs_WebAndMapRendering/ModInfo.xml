@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xml>
+	<Name value="Allocs_Webinterface" />
+	<DisplayName value="Allocs MapRendering and Webinterface" />
+	<Description value="Render the game map to image map tiles as it is uncovered" />
+	<Author value="Christian 'Alloc' Illy" />
+	<Version value="48" />
+	<Website value="https://7dtd.illy.bz" />
+</xml>

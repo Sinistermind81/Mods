@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xml>
+	<Name value="Allocs_Core" />
+	<DisplayName value="Allocs server fixes" />
+	<Description value="Common functions" />
+	<Author value="Christian 'Alloc' Illy" />
+	<Version value="32" />
+	<Website value="https://7dtd.illy.bz" />
+</xml>
