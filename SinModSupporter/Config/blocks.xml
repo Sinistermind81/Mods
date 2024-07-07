@@ -1,5 +1,8 @@
 <SinModSupporter>
-    
+    <!-- Ads blood crystals to mining-->
+    <append xpath="/blocks/block[starts-with(@name, 'terrOre')]">
+    	<drop event="Harvest" name="resourceBloodCrystal" prob=".001" count="1" tag="artOfMiningLuckyStrikeHarvest"/>
+    </append>
     
     <append xpath="/blocks">
         <block name="sinBench">
