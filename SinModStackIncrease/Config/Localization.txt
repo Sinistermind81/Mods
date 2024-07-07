@@ -5,7 +5,7 @@ resourceOilShaleBundle,items,Item,,,Stack of Oil Shale (30000)
 resourceRockSmallBundle,items,Item,,,Stack of Small Stone (30000)
 resourceScrapIronBundle,items,Item,,,Stack of Iron (30000)cm
 resourceWoodBundle,items,Item,,,Stack of Wood (30000)
-resourceGunPowder   Bundle,items,Item,,,Stack of Gunpowder (30000)
+resourceGunPowderBundle,items,Item,,,Stack of Gunpowder (30000)
 resourceIronFragmentBundle,items,Item,,,Stack of Raw Iron (30000)
 resourceLockPickBundle,items,Item,,,Stack of Lockpicks (100)
 resourcePotassiumNitratePowderBundle,items,Item,,,Stack of Nitrate Powder (30000)
