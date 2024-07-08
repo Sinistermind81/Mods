@@ -1,0 +1,59 @@
+Key,english
+
+
+xuiRW_ServerInfoHeader,"Server Information"
+
+
+xuiRW_Tab1Label,"Rules"
+
+xuiRW_Tab1ContentTitle,"Server Rules Title"
+
+xuiRW_Tab1Contents," 1.) Respect all players. No racial/homophobic/hate speech. \n\n 2.) We will not tolerate any cheating/exploiting! \n\n 3.) Do not kill other players, such as by setting traps or using fire. This is a PvE server. \n\n 4.) Do not go to another player’s base that isn’t yours. Base raiding is prohibited, even if the base doesn’t have a LCB. \n\n 5.) Do not build within 100 blocks of the cities,lobby, horde base, cardinal teleports, trader, or any reset zone. \n\n 6.) POI's are ok to build in as long as they are 2 skulls or below. However if it is a quest location and your base gets wiped nothing we can do to help. \n\n 7.) FARMS are only 31×31 max (one level). If you go over the limit Team Members will wipe the area. \n\n 8.) No more than 4 of each station per player, per type. You can NOT combine if in a team. This is PER PLAYER and PER LOCATION. \n\n 9.) Vehicles at your own risk! We will NOT replace any vehicles. Vehicles have always been glitchy. They are known to just disappear, fall to the ground and get stuck. If you use any type of vehicle it’s on you. We will not be responsible. Keep vehicles in your backpacks/toolbelt or storage crate when not in use. Reboots wipe all vehicles left out in-game. Vehicles are known to cause maps to glitch which causes them to disappear, fall to the ground and get stuck. Drones that are left out will be removed just like vehicles. Please pick them up before you exit the game."
+
+
+
+xuiRW_Tab2Label,"Locations"
+
+xuiRW_Tab2ContentTitle,"Server Built Locations"
+
+xuiRW_Tab2Contents,"1.) /thecage - Horde night Safe place \n\n 2.) /lobby - Central location for players to gather and meet. \n\n 3.) /arena - Event location for server."
+
+
+
+xuiRW_Tab3Label,"Commands"
+
+xuiRW_Tab3ContentTitle,"Server Commands Title"
+
+xuiRW_Tab3Contents," 1.) /sethome - sets home location. \n\n 2.) /delhome - Delete a player's set home location. \n\n 3.) /home - Teleport back to your home location.(costs 100 Zennies, 40 minute cooldown) \n\n 4.) /claim vote - Claim your reward for voting for the server at 7daystodie-servers.com(Can only be claimed once per day.) \n\n 5.) /lottery - See how big the lottery is and how many tickets you have in the draw. \n\n 6.) /gamble - Buy a ticket in the next daily lottery. (costs 25 Zennies) \n\n 7.) /cash or /wallet or /bank - Tells you how many Zennies you have. \n\n 8.) /thecage - Safe place for players to go for horde night. \n\n 9.) /return - Teleport back to where you came from before your last teleport command. \n\n 10.) /stuck - Teleport you to the highest ground level at your location. \n\n 11.) /gimme - Play one gimme - win a prize! \n\n 12.) /quit or /ragequit - Get kicked out of the server with a random message. \n\n 13.) /suicide - Don't do it! :O \n\n 14.) /gimmezombies or /gimmehell or /gimmeinsane or /gimmedeath - Play a special gimme game in a location called arena. You and anyone with you will get 4 waves of zombies to fight. Select one of 4 games of increasing difficulty (more zombies, faster spawns, harder zombies). Note: Only works if teleport location /arena is working. \n\n 15.) /doge mode or /doge on/off - But what does it do!? Play and find out xD"
+
+
+
+xuiRW_Tab4Label,"Support"
+
+xuiRW_Tab4ContentTitle,"Server Support Title"
+
+xuiRW_Tab4Contents," Q:  Having an issue in city? \n\n A:  Tell us about it in Discord! See the links tab. \n\n\n\n\n Join the discord for further support."
+
+
+
+xuiRW_Tab5Label,"Links"
+
+xuiRW_Tab5ContentTitle,"Server Links Title"
+
+xuiRW_Link1Title,"Voting"
+xuiRW_Link1URL,"Bookmark link in web browser and vote daily for rewards"
+
+xuiRW_Link2Title,"Vote for Worlds End Server"
+xuiRW_Link2URL,"https://7daystodie-servers.com/server/139202/vote/"
+
+xuiRW_Link3Title,"Discord"
+xuiRW_Link3URL,"Type link in web browser to get connected"
+
+xuiRW_Link4Title,"Discord Link"
+xuiRW_Link4URL,"https://discord.gg/cMbb3tY"
+
+xuiRW_Link5Title,"Link 5 Title"
+xuiRW_Link5URL,"Link 5"
+
+xuiRW_Link6Title,"Link 6 Title"
+xuiRW_Link6URL,"Link 6"

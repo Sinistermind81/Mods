@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xml>
+    <Name value="SinModInfoPanel"/>
+    <DisplayName value="SinMod Info Panel" />
+    <Version value="1.0" compat="v1.0"/>
+    <Description value="Information panel for the server"/>
+    <Author value="edited by SinisterMind81" />
+    <Website value="" />
+</xml>
