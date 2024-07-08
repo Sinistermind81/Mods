@@ -5,7 +5,7 @@
             <ingredient name="burningBarrelPlayer" count="2"/>
             <ingredient name="toolCookingPot" count="3"/>
             <ingredient name="resourceMetalPipe" count="50"/>
-            <ingredient name="resourceWood" count="20000"/>
+            <ingredient name="resourceWood" count="20"/>
         </recipe>
         <recipe name="modDyeWhite" count="1" craft_area="artisanBench" craft_time="60">
             <ingredient name="resourcePaint" count="50"/>
