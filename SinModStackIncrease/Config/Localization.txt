@@ -3,7 +3,7 @@ resourceCoalBundle,items,Item,,,Stack of Coal (30000)
 resourceLeadBundle,items,Item,,,Stack of Lead (30000)
 resourceOilShaleBundle,items,Item,,,Stack of Oil Shale (30000)
 resourceRockSmallBundle,items,Item,,,Stack of Small Stone (30000)
-resourceScrapIronBundle,items,Item,,,Stack of Iron (30000)cm
+resourceScrapIronBundle,items,Item,,,Stack of Iron (30000)
 resourceWoodBundle,items,Item,,,Stack of Wood (30000)
 resourceGunPowderBundle,items,Item,,,Stack of Gunpowder (30000)
 resourceIronFragmentBundle,items,Item,,,Stack of Raw Iron (30000)
