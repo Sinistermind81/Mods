@@ -1,5 +1,15 @@
 <SinModSupporter>
     <append xpath="/items">
+        <item name="resourceMinorBloodCrystal">
+            <property name="Extends" value="resourceSilverNugget"/>
+            <property name="Tags" value="gems"/>
+            <property name="CustomIcon" value="resourceRock02"/>
+            <property name="CustomIconTint" value="ff0000"/>
+            <!--<property name="EconomicValue" value="5000"/>-->
+            <property name="CraftingIngredientTime" value="60"/>
+            <property name="DescriptionKey" value="resourceMinorBloodCrystalDesc"/>
+        </item>
+
         <item name="resourceBloodCrystal">
             <property name="Extends" value="resourceSilverNugget"/>
             <property name="Tags" value="gems"/>

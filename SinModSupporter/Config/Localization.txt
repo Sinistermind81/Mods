@@ -1,11 +1,14 @@
 Key,File,Type,UsedInMainMenu,NoTranslate,english
 sc_Donor,items,Item,,,Donor Supply Crate.
 
-sinBench,blocks,Block,,,Blood Crystal Processing
+sinBench,blocks,Block,,,Blood Crystal Processing Station
 sinBenchDesc,blocks,Block,,,Use blood crystals to make unique items only found at the Worlds End. Blood crystals can be obtained by voting for server!
 
+resourceMinorBloodCrystal,items,Items,,,Minor Blood Crystal
+resourceMinorBloodCrystalDesc,items,Items,,,These minor crystals can be combined in the Blood Crystal Processing Station to make the full Blood Crystal.
 resourceBloodCrystal,items,Items,,,Blood Crystal
-resourceBloodCrystalDesc,items,Items,,,These crystals are used to craft upgraded mods for tools/weapons/armor/vehicles
+resourceBloodCrystalDesc,items,Items,,,These crystals are used to craft upgraded mods for tools/weapons/armor/vehicles.
+
 meleeSinWeedWackinator,items,Melee,,,Weed Wackinator,,,,,
 meleeSinWeedWackinatorDesc,items,Melee,,,Perfect tool for cutting grass and harvesting crops quick fast and in a hurry.
 
