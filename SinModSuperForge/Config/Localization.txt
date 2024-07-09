@@ -1,0 +1,45 @@
+Key,File,Type,UsedInMainMenu,NoTranslate,english,Context
+
+forgeSkillMagazine,items,Workstations,,,Master Forging
+forgeSkillMagazineDesc,items,Workstations,,,"Learn to master smelting like the pros! \n\n Improves forge smelting and crafting speeds."
+
+forgeTier2,blocks,Workstation,,,Forge Tier 2
+forgeTier3,blocks,Workstation,,,Forge Tier 3
+
+statCraftingSmeltTimeForgeTier2,ui_display,Item stat,,,Increase forge smelting speed,,
+statCraftingSmeltTimeForgeTier3,ui_display,Item stat,,,Increase forge smelting speed,,
+statCraftingTimeForgeTier2,ui_display,Item stat,,,Increase forge crafting speed,,
+statCraftingTimeForgeTier3,ui_display,Item stat,,,Increase forge crafting speed,,
+
+toolAnvilTier2,items,Item,,,Anvil Tier 2,,
+toolAnvilTier3,items,Item,,,Anvil Tier 3,,
+toolBellowsTier2,items,Item,,,Bellows Tier 2,,
+toolBellowsTier3,items,Item,,,Bellows Tier 3,,
+
+craftingForgesDesc,progression,Attribute,,,Reading [DECEA3]Master Forging[-] will unlock various tiers of forges and their tools.,,
+
+craftingForgesTip,Journal Tip,,,,The tiered forges are used to smelt metals and other resources to craft recipes faster.\nRecipes can only be crafted at the forge using the smelted resources - not items from your inventory.\n\nInstalling tiered anvils or bellows will increase performance and installing a crucible allows you to craft steel items.\nHold E to pick up Workstations within your land claim area.,,
+craftingForgesTip_title,Journal Tip,,,,Super Forges,,
+
+
+CraftingSpeedDAL1Desc,progression,Attribute,New,2x Crafting Speed,,
+
+
+perkForgeFreakName,progression,perk Int,,,Forge Freak,,
+perkForgeFreakDesc,progression,perk Int,,,This Skill will help you find more [FF240E]Master Forging Magazines!,,
+
+perkForgeFreakRank1Desc,progression,perk Int,,,Forge Rookie,,
+perkForgeFreakRank1LongDesc,progression,perk Int,,,"You are a forge rookie. Find more Master Forging Magazines in loot.",,
+
+perkForgeFreakRank2Desc,progression,perk Int,,,Forge Novice,,
+perkForgeFreakRank2LongDesc,progression,perk Int,,,"You are a forge Novice now. Find even more Master Forging Magazines in loot.",,
+
+perkForgeFreakRank3Desc,progression,perk Int,,,Blacksmith,,
+perkForgeFreakRank3LongDesc,progression,perk Int,,,"You basically a blacksmith now. Find alot more Master Forging Magazines in loot. -10% needed resources to craft forges and tools",,
+
+perkForgeFreakRank4Desc,progression,perk Int,,,Mr. Smelt,,
+perkForgeFreakRank4LongDesc,progression,perk Int,,,"You are Mr. Smelt. Find a shit ton Master Forging Magazines in loot. -20% needed resources to craft forges and tools",,
+
+perkForgeFreakRank5Desc,progression,perk Int,,,Crazy Forge Man,,
+perkForgeFreakRank5LongDesc,progression,perk Int,,,"You are now the crazy forge man. No one should ever harness this power... Find a fuck ton more Master Forging Magazines in loot. -30% needed resources to craft forges and tools",,
+

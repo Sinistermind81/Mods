@@ -1,0 +1,51 @@
+<SinModSuperForge>
+
+    <append xpath="//lootgroup[@name='workstationToolsScaled']">
+        <item name="toolAnvilTier2" loot_prob_template="ProbT1Cap"/>
+        <item name="toolBellowsTier2" loot_prob_template="ProbT1Cap"/>
+        <item name="toolAnvilTier3" loot_prob_template="ProbT1Cap"/>
+        <item name="toolBellowsTier3" loot_prob_template="ProbT1Cap"/>
+    </append>
+
+    <append xpath="/lootcontainers/lootgroup[@name='groupZpackReg01']">
+        <item name="forgeSkillMagazine" loot_prob_template="med"/>
+    </append>
+
+    <append xpath="/lootcontainers/lootgroup[@name='groupZpackReg02']">
+        <item name="forgeSkillMagazine" loot_prob_template="med"/>
+    </append>
+
+    <append xpath="/lootcontainers/lootgroup[@name='groupZpackReg03']">
+        <item name="forgeSkillMagazine" loot_prob_template="med"/>
+    </append>
+
+    <append xpath="/lootcontainers/lootgroup[@name='groupZpackStrong01']">
+        <item name="forgeSkillMagazine" loot_prob_template="med"/>
+    </append>
+
+    <append xpath="/lootcontainers/lootgroup[@name='groupZpackStrong02']">
+        <item name="forgeSkillMagazine" loot_prob_template="med"/>
+    </append>
+
+    <append xpath="/lootcontainers/lootgroup[@name='groupZpackStrong03']">
+        <item name="forgeSkillMagazine" loot_prob_template="med"/>
+    </append>
+
+    <append xpath="/lootcontainers/lootgroup[@name='groupZpackBoss01']">
+        <item name="forgeSkillMagazine" loot_prob_template="med"/>
+    </append>
+
+    <append xpath="/lootcontainers/lootgroup[@name='groupZpackBoss02']">
+        <item name="forgeSkillMagazine" loot_prob_template="med"/>
+    </append>
+
+    <append xpath="/lootcontainers/lootgroup[@name='groupZpackBoss03']">
+        <item name="forgeSkillMagazine" loot_prob_template="med"/>
+    </append>
+    
+    <!-- normal loot -->
+    <append xpath="/lootcontainers/lootgroup[@name='skillMagazines']">
+        <item name="forgeSkillMagazine" loot_prob_template="med" />
+    </append>
+</SinModSuperForge>
+

@@ -1,0 +1,65 @@
+<SinModSuperForge>
+    <append xpath="/progression/crafting_skills">
+
+        <crafting_skill name="craftingForges" max_level="200" parent="attCrafting" name_key="forgeSkillMagazine" desc_key="craftingForgesDesc" long_desc_key="craftingWorkstationsLongDesc" icon="ui_game_symbol_workbench">
+
+            <display_entry icon="forge" name_key="forgeTier2" has_quality="false" unlock_level="100,200">
+                <unlock_entry item="forgeTier2" unlock_tier="1" />
+                <unlock_entry item="toolAnvilTier2" unlock_tier="1" />
+                <unlock_entry item="toolBellowsTier2" unlock_tier="1" />
+            </display_entry>
+
+            <display_entry icon="forge" name_key="forgeTier3" has_quality="false" unlock_level="200">
+                <unlock_entry item="forgeTier3" unlock_tier="1" />
+                <unlock_entry item="toolAnvilTier3" unlock_tier="1" />
+                <unlock_entry item="toolBellowsTier3" unlock_tier="1" />
+            </display_entry>
+
+            <effect_group>
+                <passive_effect name="RecipeTagUnlocked" operation="base_set" level="75,200" value="1" tags="forgeTier2" />
+                <passive_effect name="RecipeTagUnlocked" operation="base_set" level="150,200" value="1" tags="forgeTier3" />
+
+                <passive_effect name="RecipeTagUnlocked" operation="base_set" level="150,200" value="1" tags="toolAnvilTier2" />
+                <passive_effect name="RecipeTagUnlocked" operation="base_set" level="175,200" value="1" tags="toolAnvilTier3" />
+
+                <passive_effect name="RecipeTagUnlocked" operation="base_set" level="125,200" value="1" tags="toolBellowsTier2" />
+                <passive_effect name="RecipeTagUnlocked" operation="base_set" level="200" value="1" tags="toolBellowsTier3" />
+            </effect_group>
+        </crafting_skill>
+    </append>
+
+    <append xpath="/progression/perks">
+        <perk name="perkForgeFreak" parent="skillIntellectCraftsmanship" name_key="perkForgeFreakName" desc_key="perkForgeFreakDesc" icon="ui_game_symbol_workbench">
+            <level_requirements level="1">
+                <requirement name="ProgressionLevel" progression_name="attIntellect" operation="GTE" value="1" desc_key="reqIntellectLevel01"/>
+            </level_requirements>
+            <level_requirements level="2">
+                <requirement name="ProgressionLevel" progression_name="attIntellect" operation="GTE" value="2" desc_key="reqIntellectLevel04"/>
+            </level_requirements>
+            <level_requirements level="3">
+                <requirement name="ProgressionLevel" progression_name="attIntellect" operation="GTE" value="3" desc_key="reqIntellectLevel06"/>
+            </level_requirements>
+            <level_requirements level="4">
+                <requirement name="ProgressionLevel" progression_name="attIntellect" operation="GTE" value="4" desc_key="reqIntellectLevel08"/>
+            </level_requirements>
+            <level_requirements level="5">
+                <requirement name="ProgressionLevel" progression_name="attIntellect" operation="GTE" value="5" desc_key="reqIntellectLevel10"/>
+            </level_requirements>
+
+            <effect_group>
+                <passive_effect name="CraftingTier" operation="base_set" level="0,5" value="0,5" tags="ForgeFreak"/>
+                <passive_effect name="LootProb" operation="perc_add" value=".03" level="1"/>
+                <passive_effect name="LootProb" operation="perc_add" value=".06" level="2"/>
+                <passive_effect name="LootProb" operation="perc_add" value=".09" level="3"/>
+                <passive_effect name="LootProb" operation="perc_add" value=".12" level="4"/>
+                <passive_effect name="LootProb" operation="perc_add" value=".15" level="5"/>
+
+                <effect_description level="1" desc_key="perkForgeFreakRank1Desc" long_desc_key="perkForgeFreakRank1LongDesc"/>
+                <effect_description level="2" desc_key="perkForgeFreakRank2Desc" long_desc_key="perkForgeFreakRank2LongDesc"/>
+                <effect_description level="3" desc_key="perkForgeFreakRank3Desc" long_desc_key="perkForgeFreakRank3LongDesc"/>
+                <effect_description level="4" desc_key="perkForgeFreakRank4Desc" long_desc_key="perkForgeFreakRank4LongDesc"/>
+                <effect_description level="5" desc_key="perkForgeFreakRank5Desc" long_desc_key="perkForgeFreakRank5LongDesc"/>
+            </effect_group>
+        </perk>
+    </append>
+</SinModSuperForge>
