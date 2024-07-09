@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xml>
+	<Name value="SinModAmmoRecycling" />
+	<DisplayName value="Ammo Disassembly" />
+	<Description value="Allows you to disassemble ammo to get back the resources it takes to craft them" />
+	<Author value="SinisterMind81" />
+	<Version value="1.4" compat="v1.0"/>
+	<Website value="" />
+</xml>
