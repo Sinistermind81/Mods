@@ -28,11 +28,11 @@ xuiRW_Tab3Contents," 1.) /sethome - sets home location. \n\n 2.) /delhome - Dele
 
 
 
-xuiRW_Tab4Label,"Support"
+xuiRW_Tab4Label,"Mods"
 
-xuiRW_Tab4ContentTitle,"Server Support Title"
+xuiRW_Tab4ContentTitle,"Current Mods Installed"
 
-xuiRW_Tab4Contents," Q:  Having an issue in city? \n\n A:  Tell us about it in Discord! See the links tab. \n\n\n\n\n Join the discord for further support."
+xuiRW_Tab4Contents," 1.) bigbackpack by Donovan \n 2.) SinModAdmin by SinisterMind81 \n 3.) SinModAmmoRecycle by SinisterMind81 \n 4.) SinModCarRespawner by SinisterMind81 \n 5.) SinModGrills by SinisterMind81 \n 6.) SinModInfoPanel by RevenantWit \n 7.) SinModLargeGenerator by SinisterMind81 \n 8.) SinModStackIncrease by SinisterMind81 \n 9.) SinModStarterBundle by SinisterMind81 \n 10.) SinModSuperForge by SinisterMind81 \n 11.) SinModSupporter by SinisterMind81 \n 12.) SSustainableForestry by Saminal \n 13.) x3SlotForgeInput by KhaineGB"
 
 
 
