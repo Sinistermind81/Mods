@@ -1,0 +1,11 @@
+<SinModSolar>
+
+    <append xpath="/progression/crafting_skills/crafting_skill[@name='craftingElectrician']/display_entry[@name_key='electricianT3']/unlock_entry/@item">,solarbank,solarCell</append>
+
+    <append xpath="/progression/crafting_skills/crafting_skill[@name='craftingElectrician']/effect_group/passive_effect[@level='51,100']/@tags">,solarbank,solarCell</append>
+
+    <append xpath="/progression/crafting_skills/crafting_skill[@name='craftingElectrician']/effect_group/passive_effect[@name='CraftingTier']/@tags">,solarbank,solarCell</append>
+
+    <!--TODO figure out the tool tip stating you can craft lvl ? items-->
+
+</SinModSolar>

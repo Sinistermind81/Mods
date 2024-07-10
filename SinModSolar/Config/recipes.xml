@@ -1,0 +1,14 @@
+<SinModSolar>
+    <append xpath="/recipes">
+        <recipe name="solarbank" count="1" craft_area="workbench" tags="learnable,craftingElectrician">
+            <ingredient name="resourceElectricParts" count="10"/>
+            <ingredient name="resourceForgedSteel" count="22"/>
+        </recipe>
+
+        <recipe name="solarCell" count="1" craft_area="workbench" tags="learnable,craftingElectrician">
+            <ingredient name="resourceElectricParts" count="30"/>
+            <ingredient name="resourceScrapPolymers" count="20"/>
+            <ingredient name="resourceGoldNugget" count="10"/>
+        </recipe>
+    </append>
+</SinModSolar>
