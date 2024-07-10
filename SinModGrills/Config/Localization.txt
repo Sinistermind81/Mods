@@ -1,0 +1,4 @@
+Key,File,Type,UsedInMainMenu,NoTranslate,english
+
+campfireGasGrill,blocks,Workstation,,,Gas Grill
+campfireCharcoalGrill,blocks,Workstation,,,Charcoal Grill
