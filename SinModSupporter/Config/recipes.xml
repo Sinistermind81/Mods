@@ -28,6 +28,16 @@
         <recipe name="modSinBrassCatcher" count="1" craft_time="120" craft_area="sinBench">
             <ingredient name="resourceBloodCrystal" count="15"/>
         </recipe>
+        <recipe name="modSinBrainWaveAccelerator" count="1" craft_time="120" craft_area="sinBench">
+            <ingredient name="resourceBloodCrystal" count="20"/>
+        </recipe>
+        <recipe name="modSinAncientKnowledge" count="1" craft_time="120" craft_area="sinBench">
+            <ingredient name="resourceBloodCrystal" count="15"/>
+            <ingredient name="modArmorPerception" count="1"/>
+            <ingredient name="modArmorIntellect" count="1"/>
+            <ingredient name="modArmorFortitude" count="1"/>
+            <ingredient name="modArmorAgility" count="1"/>
+        </recipe>
         <recipe name="meleeSinWeedWackinator" count="1" craft_time="120" craft_area="sinBench">
             <ingredient name="resourceBloodCrystal" count="2"/>
         </recipe>

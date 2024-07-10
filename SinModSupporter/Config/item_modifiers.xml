@@ -63,6 +63,7 @@
         </item_modifier>
 
         <item_modifier name="modSinBrassCatcher" installable_tags="weapon" blocked_tags="shotgun,melee,perkArchery,turretMelee,turretRanged,noMods" modifier_tags="sideAttachment" type="attachment">
+        <property name="Extends" value="modGeneralMaster"/>
             <property name="CustomIcon" value="resourceBulletCasing" />
             <property name="CustomIconTint" value="FF0000" />
             <property name="DescriptionKey" value="modGunBrassCatcherDesc"/>
@@ -76,6 +77,32 @@
             </effect_group>
             <effect_group>
                 <passive_effect name="ReloadSpeedMultiplier" operation="perc_add" value="-.15"/>
+            </effect_group>
+        </item_modifier>
+
+        <item_modifier name="modSinBrainWaveAccelerator" installable_tags="armorHead" blocked_tags="noMods" modifier_tags="misc" type="attachment">
+            <property name="Extends" value="modGeneralMaster"/>
+            <property name="CustomIcon" value="modMeleeStunBatonRepulsor" />
+            <property name="CustomIconTint" value="FF0000" />
+            <property name="DescriptionKey" value="modSinBrainWaveAcceleratorDesc"/>
+            <property name="Stacknumber" value="1"/>
+            <effect_group tiered="false">
+                <passive_effect name="CraftingTime" operation="perc_subtract" value=".5"/>
+            </effect_group>
+        </item_modifier>
+
+        <item_modifier name="modSinAncientKnowledge" installable_tags="armorHead" blocked_tags="noMods" modifier_tags="attributeBoost" type="attachment">
+            <property name="Extends" value="modGeneralMaster"/>
+            <property name="CustomIcon" value="modRoboticDroneHeadlampMod" />
+            <property name="CustomIconTint" value="FF0000" />
+            <property name="DescriptionKey" value="modSinAncientKnowledgeDesc"/>
+            <property name="Stacknumber" value="1"/>
+            <effect_group tiered="false">
+                <passive_effect name="AttributeLevel" tags="attAgility" operation="base_add" value="1"/>
+                <passive_effect name="AttributeLevel" tags="attFortitude" operation="base_add" value="1"/>
+                <passive_effect name="AttributeLevel" tags="attStrength" operation="base_add" value="1"/>
+                <passive_effect name="AttributeLevel" tags="attPerception" operation="base_add" value="1"/>
+                <passive_effect name="AttributeLevel" tags="attIntellect" operation="base_add" value="1"/>
             </effect_group>
         </item_modifier>
 

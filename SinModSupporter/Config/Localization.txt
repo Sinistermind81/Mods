@@ -24,3 +24,8 @@ modSinHighSpeed,items,Item,,,High Speed Attachment
 modSinHighSpeedDesc,items,Item,,,Servo Motors that will increase your walking and running speed.
 modSinBrassCatcher,items,Item,,,Brass Catcher Attachment
 modSinBrassCatcherDesc,items,Item,,,"Will return 50% of bullet casings when installed in 9mm, 7.62mm, & .44 caliber weapons, but makes them a little slower to reload."
+modSinBrainWaveAccelerator,items,Item,,,Brainwave Accelerator
+modSinBrainWaveAcceleratorDesc,items,Item,,,"With mod attached to helmet, your logical thinking is increase and as a result you can now craft items faster."
+modSinAncientKnowledge,items,Item,,,Ancient Knowledge
+modSinAncientKnowledgeDesc,items,Item,,,"Knowledge of the ancients, gives you the wisdom of Perception, Fortitude, Agility, and Intellect. If they were so smart why are they not still around?"
+
