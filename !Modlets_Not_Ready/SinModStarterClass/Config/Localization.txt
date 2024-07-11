@@ -1,0 +1,25 @@
+Key,File,Type,UsedInMainMenu,NoTranslate,english
+largeGeneratorBank,blocks,Electricity,,,Large Generator Bank
+
+noteStart,items,Item,,,I see you survived
+noteStartDesc,items,Item,,,"Glad to see you survived,\n\n If you want to be a part of the White River Clan you will need to prove yourself.  Press [Y] and finish those tasks on the top row, then come see me, to show you have what it takes to join our ranks.\n\nSee you soon, White River Clan"
+
+quest_Start,Quest,Quest Info,,,Worlds End,,
+quest_Start1,Quest,Quest Info,,,Worlds End 1/1,,
+quest_Start1_description,Quest,Quest Info,,,"We see you have what it takes to be a survivor in the White River Clan, but we have one more task for you. We have marked your map with the nearest (almost abandoned) White River Stash House location, I have left a satchel there with some important items, bring it back to me an ill reward you justly!",,
+quest_Start1_hint1,Quest,Quest Info,,,[FFB400]Follow the on-screen navigation icon and head towards the White River Stash House where we have stashed some gear for you.[-],,
+quest_Start1_hint2,Quest,Quest Info,,,[FFB400]Follow the navigation icon to find the White River Stash House inside.[-],,
+quest_Start1_subtitle,Quest,Quest Info,,,Journey to White River Stash House,,
+quest_Start1_description_title,Journal Tip,,,,White River Stash House,,
+
+quest_start_completion,Quest,Quest Info,,,"We are impressed! Many survivors have died trying to collect this for us.\n\n Take this supply as a reward and we welcome you to the White River Clan."
+
+
+lockedClassCaseDesc,blocks,Blocks,,,Class Case (Locked)
+
+
+
+
+
+
+

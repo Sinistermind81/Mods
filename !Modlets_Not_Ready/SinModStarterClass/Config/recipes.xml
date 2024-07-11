@@ -1,19 +1,64 @@
-<Config>
+<SinModStartClass>
     <append xpath="/recipes">
-        <recipe name="classHitman" count="1">
+        <recipe name="classLumberjack" count="1">
             <ingredient name="classSelector" count="1" />
         </recipe>
-        <recipe name="classBruiser" count="1">
+        <recipe name="classPreacher" count="1">
             <ingredient name="classSelector" count="1" />
         </recipe>
-        <recipe name="classSurvivalist" count="1">
+        <recipe name="classRouge" count="1">
             <ingredient name="classSelector" count="1" />
         </recipe>
-        <recipe name="classConartist" count="1">
+        <recipe name="classAthletic" count="1">
             <ingredient name="classSelector" count="1" />
         </recipe>
-        <recipe name="classEngineer" count="1">
+        <recipe name="classEnforcer" count="1">
             <ingredient name="classSelector" count="1" />
         </recipe>
+        <recipe name="classFarmer" count="1">
+            <ingredient name="classSelector" count="1" />
+        </recipe>
+        <recipe name="classBiker" count="1">
+            <ingredient name="classSelector" count="1" />
+        </recipe>
+        <recipe name="classScavenger" count="1">
+            <ingredient name="classSelector" count="1" />
+        </recipe>
+        <recipe name="classRanger" count="1">
+            <ingredient name="classSelector" count="1" />
+        </recipe>
+        <recipe name="classCommando" count="1">
+            <ingredient name="classSelector" count="1" />
+        </recipe>
+        <recipe name="classAssassin" count="1">
+            <ingredient name="classSelector" count="1" />
+        </recipe>
+        <recipe name="classMiner" count="1">
+            <ingredient name="classSelector" count="1" />
+        </recipe>
+        <recipe name="classNomad" count="1">
+            <ingredient name="classSelector" count="1" />
+        </recipe>
+        <recipe name="classNerd" count="1">
+            <ingredient name="classSelector" count="1" />
+        </recipe>
+        <recipe name="classRaider" count="1">
+            <ingredient name="classSelector" count="1" />
+        </recipe>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     </append>
-</Config>
+</SinModStartClass>

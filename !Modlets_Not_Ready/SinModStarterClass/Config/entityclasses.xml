@@ -1,5 +1,5 @@
-<Config>
-<set xpath="/entity_classes/entity_class[@name='playerMale']/property[@name='ItemsOnEnterGame.GameModeSurvivalMP']/@value">meleeToolTorch,keystoneBlock,StartWorldsEnd(README)</set>
-<set xpath="/entity_classes/entity_class[@name='playerMale']/property[@name='ItemsOnEnterGame.GameModeSurvival']/@value">meleeToolTorch,keystoneBlock,StartWorldsEnd(README)</set>
-<set xpath="/entity_classes/entity_class[@name='playerMale']/property[@name='ItemsOnEnterGame.GameModeSurvivalSP']/@value">meleeToolTorch,keystoneBlock,StartWorldsEnd(README)</set>
-</Config>
+<SinModStartClass>
+    <append xpath="/entity_classes/entity_class[@name='playerMale']/property[@name='ItemsOnEnterGame.GameModeSurvivalMP']/@value">,noteStart</append>
+    <append xpath="/entity_classes/entity_class[@name='playerMale']/property[@name='ItemsOnEnterGame.GameModeSurvival']/@value">,noteStart</append>
+    <append xpath="/entity_classes/entity_class[@name='playerMale']/property[@name='ItemsOnEnterGame.GameModeSurvivalSP']/@value">,noteStart</append>
+</SinModStartClass>

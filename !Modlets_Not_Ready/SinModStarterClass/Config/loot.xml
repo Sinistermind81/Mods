@@ -1,4 +1,4 @@
-<Config>
+<SinModStartClass>
     <append xpath="/lootcontainers">
         <lootgroup name="Survival_Shirts" count="1" quality="1,3">
             <item name="suitJacket"/>
@@ -58,4 +58,4 @@
             <item group="SurvivalGear"/>
         </lootcontainer>
     </append>
-</Config>
+</SinModStartClass>

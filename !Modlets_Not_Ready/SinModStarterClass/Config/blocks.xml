@@ -1,12 +1,12 @@
-<Config>
+<SinModStartClass>
     <append xpath="/blocks">
-        <block name="Class Case (Locked)">
+        <!--<block name="Class Case (Locked)">
             <property name="CreativeMode" value="Dev"/>
             <property name="CustomIcon" value="ClassCase (Locked)" />
             <property name="DescriptionKey" value="lockedClassCaseDesc"/>
             <property name="Material" value="Mcloth"/>
             <property name="Shape" value="ModelEntity"/>
-            <property name="Model" value="#Entities/LootContainers?super_chestPrefab.prefab" />
+            <property name="Model" value="@:Entities/LootContainers/super_chestPrefab.prefab" />
             <property name="Displayinfo" value="Name" />
             <property name="Path" value="solid"/>
             <property name="Place" value="TowardsPlacerInverted"/>
@@ -18,7 +18,7 @@
             <property name="DisplayType" value="blockHardenedMulti" />
             <property name="Material" value="Mwood_regular"/>
             <property name="Shape" value="ModelEntity"/>
-            <property name="Model" value="#Entities/LootContainers?super_chestPrefab.prefab" />
+            <property name="Model" value="@:Entities/LootContainers/super_chestPrefab.prefab" />
             <property name="DisplayType" value="blockMulti" />
             <property name="MultiBlockDim" value="2,1,1"/>
             <property name="AllowAllRotations" value="true"/>
@@ -27,6 +27,6 @@
             <property name="Class" value="Loot"/>
             <property name="LootList" value="175"/>
             <drop event="Destroy" count="0"/>
-        </block>
+        </block>-->
     </append>
-</Config>
+</SinModStartClass>

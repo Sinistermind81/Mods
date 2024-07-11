@@ -1,15 +1,18 @@
-<Config>
-    <append xpath="/items" >
+<SinModStartClass>
+    <append xpath="/items">
         <!--SinMod Class Selection-->
-        <item name="StartWorldsEnd(README)">
+        <item name="noteStart">
             <property name="Extends" value="challengeQuestMaster" />
-            <property name="CustomIcon" value="StartWorldsEnd(README)" />
-            <property name="DescriptionKey" value="StartWorldsEnd(README)Desc"/>
-            <property name="Description" value="startWorldsEndDesc"/>
+            <property name="CustomIcon" value="challengeQuestMaster" />
+            <property name="CustomIconTint" value="FF0000" />
+            <property name="DescriptionKey" value="noteStartDesc"/>
+            <!--
             <property class="Action0">
-                <property name="QuestGiven" value="quest_StartWorldsEnd" /></property>
+                <property name="QuestGiven" value="quest_Start" />
+            </property>
+            -->
         </item>
-        <item name="classSelector">
+        <!--<item name="classSelector">
             <property name="DescriptionKey" value="classSelectorDesc"/>
             <property name="CustomIcon" value="classSelector" />
             <property name="Meshfile" value="Items/Misc/Book" />
@@ -22,42 +25,130 @@
                 <property name="Zoom" value="10" />
                 <property name="Pos" value="0,-0.2" />
                 <property name="Rot" value="90,45,0" /></property>
-        </item>
+        </item>-->
         <!--SinMod Class Mod-->
-        <item name="classHitman">
-            <property name="Extends" value="questMaster" />
-            <property name="CustomIcon" value="classHitman"/>
-            <property name="DescriptionKey" value="classHitmanDesc"/>
+        <!--Lumberjack-->
+        <item name="classLumberjack">
+            <property name="Extends" value="ammoBundleMaster" />
+            <property name="CustomIcon" value="cntHardenedChestSecureT5"/>
+            <property name="ItemTypeIcon" value="bundle"/>
+            <property name="DescriptionKey" value="classLumberjackDesc"/>
             <property class="Action0">
-                <property name="QuestGiven" value="quest_classHitman" /></property>
+                <property name="Create_item" value="armorLumberjackHelmet,armorLumberjackOutfit,armorLumberjackGloves,armorLumberjackBoots,meleeToolAxeT1IronFireaxe,modMeleeFiremansAxeMod,modMeleeWoodSplitter"/>
+                <property name="Create_item_count" value="1,1,1,1,1,5,1"/>
+            </property>
         </item>
-        <item name="classBruiser">
+        <item name="classPreacher">
             <property name="Extends" value="questMaster" />
-            <property name="CustomIcon" value="classBruiser"/>
-            <property name="DescriptionKey" value="classBruiserDesc"/>
+            <property name="CustomIcon" value="classPreacher"/>
+            <property name="DescriptionKey" value="classPreacherDesc"/>
             <property class="Action0">
-                <property name="QuestGiven" value="quest_classBruiser" /></property>
+                <property name="QuestGiven" value="quest_classPreacher" />
+            </property>
         </item>
-        <item name="classSurvivalist">
+        <item name="classRouge">
             <property name="Extends" value="questMaster" />
-            <property name="CustomIcon" value="classSurvivalist"/>
-            <property name="DescriptionKey" value="classSurvivalistDesc"/>
+            <property name="CustomIcon" value="classRouge"/>
+            <property name="DescriptionKey" value="classRougeDesc"/>
             <property class="Action0">
-                <property name="QuestGiven" value="quest_classSurvivalist" /></property>
+                <property name="QuestGiven" value="quest_classRouge" />
+            </property>
         </item>
-        <item name="classConartist">
+        <item name="classAthletic">
             <property name="Extends" value="questMaster" />
-            <property name="CustomIcon" value="classConartist"/>
-            <property name="DescriptionKey" value="classConartistDesc"/>
+            <property name="CustomIcon" value="classAthletic"/>
+            <property name="DescriptionKey" value="classAthleticDesc"/>
             <property class="Action0">
-                <property name="QuestGiven" value="quest_classConartist" /></property>
+                <property name="QuestGiven" value="quest_classAthletic" />
+            </property>
         </item>
-        <item name="classEngineer">
+        <item name="classEnforcer">
             <property name="Extends" value="questMaster" />
-            <property name="CustomIcon" value="classEngineer"/>
-            <property name="DescriptionKey" value="classEngineerDesc"/>
+            <property name="CustomIcon" value="classEnforcer"/>
+            <property name="DescriptionKey" value="classEnforcerDesc"/>
             <property class="Action0">
-                <property name="QuestGiven" value="quest_classEngineer" /></property>
+                <property name="QuestGiven" value="quest_classEnforcer" />
+            </property>
+        </item>
+        <item name="classFarmer">
+            <property name="Extends" value="questMaster" />
+            <property name="CustomIcon" value="classFarmer"/>
+            <property name="DescriptionKey" value="classFarmerDesc"/>
+            <property class="Action0">
+                <property name="QuestGiven" value="quest_classFarmer" />
+            </property>
+        </item>
+        <item name="classBiker">
+            <property name="Extends" value="questMaster" />
+            <property name="CustomIcon" value="classBiker"/>
+            <property name="DescriptionKey" value="classBikerDesc"/>
+            <property class="Action0">
+                <property name="QuestGiven" value="quest_classBiker" />
+            </property>
+        </item>
+        <item name="classScavenger">
+            <property name="Extends" value="questMaster" />
+            <property name="CustomIcon" value="classScavenger"/>
+            <property name="DescriptionKey" value="classScavengerDesc"/>
+            <property class="Action0">
+                <property name="QuestGiven" value="quest_classScavenger" />
+            </property>
+        </item>
+        <item name="classRanger">
+            <property name="Extends" value="questMaster" />
+            <property name="CustomIcon" value="classRanger"/>
+            <property name="DescriptionKey" value="classRangerDesc"/>
+            <property class="Action0">
+                <property name="QuestGiven" value="quest_classRanger" />
+            </property>
+        </item>
+        <item name="classCommando">
+            <property name="Extends" value="questMaster" />
+            <property name="CustomIcon" value="classCommando"/>
+            <property name="DescriptionKey" value="classCommandoDesc"/>
+            <property class="Action0">
+                <property name="QuestGiven" value="quest_classCommando" />
+            </property>
+        </item>
+        <item name="classAssassin">
+            <property name="Extends" value="questMaster" />
+            <property name="CustomIcon" value="classAssassin"/>
+            <property name="DescriptionKey" value="classAssassinDesc"/>
+            <property class="Action0">
+                <property name="QuestGiven" value="quest_classAssassin" />
+            </property>
+        </item>
+        <item name="classMiner">
+            <property name="Extends" value="questMaster" />
+            <property name="CustomIcon" value="classMiner"/>
+            <property name="DescriptionKey" value="classMinerDesc"/>
+            <property class="Action0">
+                <property name="QuestGiven" value="quest_classMiner" />
+            </property>
+        </item>
+        <item name="classNomad">
+            <property name="Extends" value="questMaster" />
+            <property name="CustomIcon" value="classNomad"/>
+            <property name="DescriptionKey" value="classNomadDesc"/>
+            <property class="Action0">
+                <property name="QuestGiven" value="quest_classNomad" />
+            </property>
+        </item>
+        <item name="classNerd">
+            <property name="Extends" value="questMaster" />
+            <property name="CustomIcon" value="classNerd"/>
+            <property name="DescriptionKey" value="classNerdDesc"/>
+            <property class="Action0">
+                <property name="QuestGiven" value="quest_classNerd" />
+            </property>
+        </item>
+        <item name="classRaider">
+            <property name="Extends" value="questMaster" />
+            <property name="CustomIcon" value="classRaider"/>
+            <property name="DescriptionKey" value="classRaiderDesc"/>
+            <property class="Action0">
+                <property name="QuestGiven" value="quest_classRaider" />
+            </property>
         </item>
     </append>
-</Config>
+</SinModStartClass>
