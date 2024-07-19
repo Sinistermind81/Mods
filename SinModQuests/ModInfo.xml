@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xml>
+    <Name value="SinModQuests" />
+    <DisplayName value="Sinister's Crazy Quests" />
+    <Description value="Who knows what SinisterMind will have you doing...." />
+    <Author value="Sinistermind81" />
+    <Version value="1.0.0"  compat="v1.0"/>    
+</xml>

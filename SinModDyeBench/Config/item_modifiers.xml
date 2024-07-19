@@ -1,0 +1,62 @@
+<SinModDyeBench>
+    <!--
+Current Dye Color in game
+modDyeWhite
+modDyeBrown
+modDyeRed
+modDyeOrange
+modDyeYellow
+modDyeGreen
+modDyeBlue
+modDyePurple
+modDyeBlack
+modDyePink
+
+EXAMPLE DYE
+<item_modifier name="modDyeBrown" installable_tags="clothing,armor,weapon,tool,vehicle,drone" modifier_tags="dye,modDyeBrown" type="attachment" cosmetic_install_chance=".16">
+    <property name="Extends" value="modGeneralMaster"/>
+    <property name="DescriptionKey" value="modDyeGroupDesc"/>
+    <property name="CustomIcon" value="modDyeWhite"/>
+    <property name="CustomIconTint" value="132,105,84"/>
+    <property name="Material" value="Mpaint"/>
+    <property name="Weight" value="20"/>
+    <property name="EconomicValue" value="50"/>
+
+    <item_property_overrides name="*">
+        <property name="TintColor" value="132,105,84"/>
+        <property name="CustomIconTint" value="132,105,84"/>
+    </item_property_overrides>
+</item_modifier>
+-->
+    <append xpath="/item_modifiers">
+        <item_modifier name="modDyeAqua" installable_tags="clothing,armor,weapon,tool,vehicle,drone" modifier_tags="dye,modDyeAuqa" type="attachment" cosmetic_install_chance=".16">
+            <property name="Extends" value="modGeneralMaster"/>
+            <property name="DescriptionKey" value="modDyeGroupDesc"/>
+            <property name="CustomIcon" value="modDyeWhite"/>
+            <property name="CustomIconTint" value="0,255,255"/>
+            <property name="Material" value="Mpaint"/>
+            <property name="Weight" value="20"/>
+            <property name="EconomicValue" value="50"/>
+
+            <item_property_overrides name="*">
+                <property name="TintColor" value="0,255,255"/>
+                <property name="CustomIconTint" value="0,255,255"/>
+            </item_property_overrides>
+        </item_modifier>
+        
+        <item_modifier name="modDyeGrey" installable_tags="clothing,armor,weapon,tool,vehicle,drone" modifier_tags="dye,modDyeGrey" type="attachment" cosmetic_install_chance=".16">
+            <property name="Extends" value="modGeneralMaster"/>
+            <property name="DescriptionKey" value="modDyeGroupDesc"/>
+            <property name="CustomIcon" value="modDyeWhite"/>
+            <property name="CustomIconTint" value="189,179,219"/>
+            <property name="Material" value="Mpaint"/>
+            <property name="Weight" value="20"/>
+            <property name="EconomicValue" value="50"/>
+
+            <item_property_overrides name="*">
+                <property name="TintColor" value="189,179,219"/>
+                <property name="CustomIconTint" value="189,179,219"/>
+            </item_property_overrides>
+        </item_modifier>
+    </append>
+</SinModDyeBench>
