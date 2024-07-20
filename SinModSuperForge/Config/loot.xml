@@ -1,5 +1,5 @@
 <SinModSuperForge>
-
+    <!--
     <append xpath="//lootgroup[@name='workstationToolsScaled']">
         <item name="toolAnvilTier2" loot_prob_template="ProbT1Cap"/>
         <item name="toolBellowsTier2" loot_prob_template="ProbT1Cap"/>
@@ -41,11 +41,54 @@
 
     <append xpath="/lootcontainers/lootgroup[@name='groupZpackBoss03']">
         <item name="forgeSkillMagazine" loot_prob_template="med"/>
-    </append>
+    </append>-->
     
-    <!-- normal loot -->
+    <!-- SinModSuper Forge Loot -->
     <append xpath="/lootcontainers/lootgroup[@name='skillMagazines']">
-        <item name="forgeSkillMagazine" loot_prob_template="med" />
+        <item name="forgeSkillMagazine"/>
     </append>
+    <append xpath="/lootcontainers/lootgroup[@name='groupQuestRewardSkillMagazinesAll01']">
+        <item name="forgeSkillMagazine" count="2"/>
+    </append>
+    <append xpath="/lootcontainers/lootgroup[@name='groupChallengeRewardSkillMagazinesAll01']">
+        <item name="forgeSkillMagazine" count="2"/>
+    </append>
+    <append xpath="/lootcontainers/lootgroup[@name='groupWorkingStiffsBooks']">
+        <item name="forgeSkillMagazine" />
+    </append>
+    <append xpath="/lootcontainers/lootgroup[@name='groupWorkingStiffs01']">
+        <item name="forgeSkillMagazine" loot_prob_template="med"/>
+    </append>
+    <append xpath="/lootcontainers/lootgroup[@name='groupWorkbenchLoot04']">
+        <item name="forgeSkillMagazine" loot_prob_template="med"/>
+    </append>
+    <append xpath="/lootcontainers/lootgroup[@name='groupForge']">
+        <item name="forgeSkillMagazine" loot_prob_template="high" force_prob="true"/>
+    </append>
+    <append xpath="/lootcontainers/lootgroup[@name='groupCementMixerLoot']">
+        <item name="forgeSkillMagazine" loot_prob_template="med" force_prob="true"/>
+    </append>
+    <append xpath="/lootcontainers/lootgroup[@name='groupChemistryStationLoot03']">
+        <item name="forgeSkillMagazine" loot_prob_template="medLow"/>
+    </append>
+    <append xpath="/lootcontainers/lootgroup[@name='groupDewCollectorLoot01']">
+        <item name="forgeSkillMagazine" loot_prob_template="med"/>
+    </append>
+    <append xpath="/lootcontainers/lootgroup[@name='groupDewCollectorLoot02']">
+        <item name="forgeSkillMagazine" loot_prob_template="med"/>
+    </append>
+<append xpath="/lootcontainers/lootgroup[@name='groupLootChestBonusItems']">
+        <item name="forgeSkillMagazine" count="1" loot_prob_template="medLow"/>
+    </append>
+    <append xpath="/lootcontainers/lootgroup[@name='groupHiddenStash02']">
+        <item name="forgeSkillMagazine" count="1" loot_prob_template="med"/>
+    </append>
+    <append xpath="/lootcontainers/lootgroup[@name='groupConstructionCrate02']">
+        <item name="forgeSkillMagazine" loot_prob_template="med"/>
+    </append>
+    <append xpath="/lootcontainers/lootgroup[@name='groupAirDrop03']">
+        <item name="forgeSkillMagazine"/>
+    </append>
+
 </SinModSuperForge>
 
