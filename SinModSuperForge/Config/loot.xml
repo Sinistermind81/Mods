@@ -42,7 +42,7 @@
     <append xpath="/lootcontainers/lootgroup[@name='groupZpackBoss03']">
         <item name="forgeSkillMagazine" loot_prob_template="med"/>
     </append>-->
-    
+
     <!-- SinModSuper Forge Loot -->
     <append xpath="/lootcontainers/lootgroup[@name='skillMagazines']">
         <item name="forgeSkillMagazine"/>
@@ -77,7 +77,7 @@
     <append xpath="/lootcontainers/lootgroup[@name='groupDewCollectorLoot02']">
         <item name="forgeSkillMagazine" loot_prob_template="med"/>
     </append>
-<append xpath="/lootcontainers/lootgroup[@name='groupLootChestBonusItems']">
+    <append xpath="/lootcontainers/lootgroup[@name='groupLootChestBonusItems']">
         <item name="forgeSkillMagazine" count="1" loot_prob_template="medLow"/>
     </append>
     <append xpath="/lootcontainers/lootgroup[@name='groupHiddenStash02']">

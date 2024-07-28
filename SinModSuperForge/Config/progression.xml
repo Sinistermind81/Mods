@@ -1,29 +1,29 @@
 <SinModSuperForge>
     <append xpath="/progression/crafting_skills">
 
-        <crafting_skill name="craftingForges" max_level="200" parent="attCrafting" name_key="forgeSkillMagazine" desc_key="craftingForgesDesc" long_desc_key="craftingWorkstationsLongDesc" icon="ui_game_symbol_workbench">
+        <crafting_skill name="craftingForges" max_level="100" parent="attCrafting" name_key="forgeSkillMagazine" desc_key="craftingForgesDesc" long_desc_key="craftingWorkstationsLongDesc" icon="ui_game_symbol_workbench">
 
-            <display_entry icon="forge" name_key="forgeTier2" has_quality="false" unlock_level="100,200">
+            <display_entry icon="forge" name_key="forgeTier2" has_quality="false" unlock_level="15,30,45">
                 <unlock_entry item="forgeTier2" unlock_tier="1" />
-                <unlock_entry item="toolAnvilTier2" unlock_tier="1" />
-                <unlock_entry item="toolBellowsTier2" unlock_tier="1" />
+                <unlock_entry item="toolAnvilTier2" unlock_tier="2" />
+                <unlock_entry item="toolBellowsTier2" unlock_tier="3" />
             </display_entry>
 
-            <display_entry icon="forge" name_key="forgeTier3" has_quality="false" unlock_level="200">
+            <display_entry icon="forge" name_key="forgeTier3" has_quality="false" unlock_level="60,80,100">
                 <unlock_entry item="forgeTier3" unlock_tier="1" />
-                <unlock_entry item="toolAnvilTier3" unlock_tier="1" />
-                <unlock_entry item="toolBellowsTier3" unlock_tier="1" />
+                <unlock_entry item="toolAnvilTier3" unlock_tier="2" />
+                <unlock_entry item="toolBellowsTier3" unlock_tier="3" />
             </display_entry>
 
             <effect_group>
-                <passive_effect name="RecipeTagUnlocked" operation="base_set" level="75,200" value="1" tags="forgeTier2" />
-                <passive_effect name="RecipeTagUnlocked" operation="base_set" level="150,200" value="1" tags="forgeTier3" />
+                <passive_effect name="RecipeTagUnlocked" operation="base_set" level="15,100" value="1" tags="forgeTier2" />
+                <passive_effect name="RecipeTagUnlocked" operation="base_set" level="60,100" value="1" tags="forgeTier3" />
 
-                <passive_effect name="RecipeTagUnlocked" operation="base_set" level="150,200" value="1" tags="toolAnvilTier2" />
-                <passive_effect name="RecipeTagUnlocked" operation="base_set" level="175,200" value="1" tags="toolAnvilTier3" />
+                <passive_effect name="RecipeTagUnlocked" operation="base_set" level="30,100" value="1" tags="toolAnvilTier2" />
+                <passive_effect name="RecipeTagUnlocked" operation="base_set" level="80,100" value="1" tags="toolAnvilTier3" />
 
-                <passive_effect name="RecipeTagUnlocked" operation="base_set" level="125,200" value="1" tags="toolBellowsTier2" />
-                <passive_effect name="RecipeTagUnlocked" operation="base_set" level="200" value="1" tags="toolBellowsTier3" />
+                <passive_effect name="RecipeTagUnlocked" operation="base_set" level="45,100" value="1" tags="toolBellowsTier2" />
+                <passive_effect name="RecipeTagUnlocked" operation="base_set" level="100" value="1" tags="toolBellowsTier3" />
             </effect_group>
         </crafting_skill>
     </append>
