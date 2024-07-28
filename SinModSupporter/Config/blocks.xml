@@ -1,8 +1,22 @@
 <SinModSupporter>
     <!-- Ads blood crystals to mining-->
     <append xpath="/blocks/block[starts-with(@name, 'terrOre')]">
-        <drop event="Harvest" name="resourceMinorBloodCrystal" prob=".006" count="1" tag="artOfMiningLuckyStrikeHarvest"/>
+        <drop event="Harvest" name="resourceMinorBloodCrystal" prob=".007" count="1,3" tag="artOfMiningLuckyStrikeHarvest"/>
     </append>
+
+    <append xpath="/blocks/block[@name='goreBlockHumanCorpse']">
+        <drop event="Harvest" name="resourceMinorBloodCrystal" prob =".25" count="1,2" tag="butcherHarvest"/>
+    </append>
+    <append xpath="/blocks/block[@name='goreBlockAnimal']">
+        <drop event="Harvest" name="resourceMinorBloodCrystal" prob =".25" count="1,2" tag="butcherHarvest"/>
+    </append>
+    <append xpath="/blocks/block[@name='goreBlockHumanBones']">
+        <drop event="Harvest" name="resourceMinorBloodCrystal" prob =".25" count="1,2" tag="butcherHarvest"/>
+    </append>
+    <append xpath="/blocks/block[@name='corpseHangingLog1White']">
+        <drop event="Harvest" name="resourceMinorBloodCrystal" prob =".25" count="1,2" tag="butcherHarvest"/>
+    </append>
+
     <append xpath="/blocks">
         <block name="sinBench">
             <!-- Class -->

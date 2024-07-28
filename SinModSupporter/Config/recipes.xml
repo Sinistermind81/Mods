@@ -1,14 +1,13 @@
 <SinModSupporter>
     <append xpath="/recipes">
         <recipe name="sinBench" count="1" craft_time="120" craft_area="workbench">
-            <ingredient name="resourceMinorBloodCrystal" count="10"/>
             <ingredient name="resourceScrapIron" count="20"/>
             <ingredient name="resourceDuctTape" count="5"/>
             <ingredient name="resourceNail" count="100"/>
             <ingredient name="resourceWood" count="50"/>
         </recipe>
         <recipe name="resourceBloodCrystal" count="1" craft_time="60" craft_area="sinBench">
-            <ingredient name="resourceMinorBloodCrystal" count="5"/>
+            <ingredient name="resourceMinorBloodCrystal" count="6"/>
         </recipe>
         <recipe name="modSinUnbreakable" count="1" craft_time="120" craft_area="sinBench">
             <ingredient name="resourceBloodCrystal" count="15"/>
